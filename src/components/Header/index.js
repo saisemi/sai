@@ -26,6 +26,7 @@ const Navbar = styled(Col)`
   display: flex;
   flex-direction: row;
   align-items: center;
+  color: #393492 !important;
 `;
 
 const Nav = styled.div`
@@ -39,6 +40,10 @@ const Nav = styled.div`
 
 const NavLogo = styled.img`
   width: 100px;
+`;
+
+const A = styled(Link)`
+  color: #393492;
 `;
 
 
@@ -58,12 +63,13 @@ class Header extends React.Component {
 
   render () {
     const { hash } = this.state;
+    console.log('hash', hash);
     return (
     <HeaderContainer>
       <Container>
       <HeaderRow>
         <Col xs={3}>
-        <Link to='/'>
+        <Link to='/' onClick={() => this.setHash('')}>
           <NavLogo 
             src={saiLogo}
           />
@@ -71,19 +77,19 @@ class Header extends React.Component {
         </Col>
         <Navbar xs={6}>
             <Nav active={hash === 'about'} onClick={() => this.setHash('about')}>
-              <Link to='/about'>About Us</Link>
+              <A to='/about'>About Us</A>
             </Nav>
             <Nav active={hash === 'services'} onClick={() => this.setHash('services')}>
-              <Link to="/services">Services</Link>
+              <A to="/services">Services</A>
             </Nav>
             <Nav active={hash === 'partners'} onClick={() => this.setHash('partners')}>
-              <Link to="/partners">Partners</Link>
+              <A to="/partners">Partners</A>
             </Nav>
             <Nav active={hash === 'customers'} onClick={() => this.setHash('customers')}>
-              <Link to="/customers">Customers</Link>
+              <A to="/customers">Customers</A>
             </Nav>
             <Nav active={hash === 'contactus'} onClick={() => this.setHash('contactus')}>
-              <Link to="/contactus">Contact Us</Link>
+              <A to="/contactus">Contact Us</A>
             </Nav>
         </Navbar>
       </HeaderRow>

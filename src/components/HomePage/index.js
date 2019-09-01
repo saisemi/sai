@@ -1,17 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Container, Row, Col, Media } from 'react-bootstrap';
-import bgImageSrc from '../../img/banner.png';
+import { Container, Row, Col } from 'react-bootstrap';
+import bgImage from '../../img/lab.jpg';
 
 const BodyContainer = styled(Container)`
-  margin-top: 60px;
-  margin-bottom: 200px;
-`;
-
-const BgImg = styled.img`
-  border: 1px solid #393492;
-  width: 360px;
-  padding: 2px;
+  padding-top: 60px;
+  padding-bottom: 200px;
+  background: linear-gradient(rgba(255,255,255,.85), rgba(255,255,255,.85)), url(${bgImage});
 `;
 
 const Description = styled.p`
@@ -23,17 +18,12 @@ const Body = () => (
     <BodyContainer>
       <Row>
         <Col>
-        <Media>
-          <BgImg
-            src={bgImageSrc}
-          />
-          <Media.Body>
-            <h3>Semiconductor Automations India Pvt.Ltd</h3>
-            <Description>
-            At SAI, we enable the Indian semiconductor fabs to achieve fab automation and we also help you in fab equipment services from installation, maintenance, process automation and monitoring through MES and can also help you with techno solutions for a better fab operations
-            </Description>
-          </Media.Body>
-        </Media>
+          <h3>Semiconductor Automations India Pvt.Ltd</h3>
+          <Description>
+          At SAI, we enable the Indian semiconductor fabs to achieve end-to-end fab automation and we also help you in fab 
+          equipment services from installation, maintenance, process automation &amp; 
+          monitoring and can also help you with techno solutions for a better fab operations
+          </Description>
         </Col>
       </Row>
     </BodyContainer>

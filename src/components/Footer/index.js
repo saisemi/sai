@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import Map from './map';
 
 const FooterContainer = styled.div`
@@ -57,18 +57,12 @@ const Footer = () => (
           </Container>
         </Col>
         <Col xs={8}>
-          {/* <Card bg="light" >
-            <Card.Header>Header</Card.Header>
-            <Card.Body>
-            
-            </Card.Body>
-          </Card> */}
           <Container>
                   <Row>
                     <ContactDetails xs={6}>
-                      <Address>114 Srinivasa Signature, Kaikondrahalli, Bellandur, Banglore.</Address>
+                      <Address>unit #3, second floor, arya hub mall, hope farm junction, Whitefield, Banglore 560066.</Address>
                       <div>
-                        <Icon className="mdl2-Phone"> +91-9994555103</Icon>
+                        <Icon className="mdl2-Phone"> 080-12341234</Icon>
                         <span></span>
                       </div>
                       <div>

@@ -1,15 +1,14 @@
 import React from 'react';
-import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
 const mapStyles = {
   width: '300px',
   height: '200px'
 };
 
-const myLatLng = {lat: 12.9204082, lng: 77.6737737};
+const myLatLng = {lat: 12.992473, lng: 77.753872};
 
 const MapContainer = ({ google }) => (
-  // <>
     <Map
       google={google}
       zoom={14}
@@ -24,7 +23,6 @@ const MapContainer = ({ google }) => (
       animation={google.maps.Animation.DROP}
     />
     </Map>
-  // </>
 );
 
 export default GoogleApiWrapper({
