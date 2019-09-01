@@ -10,6 +10,7 @@ const BodyContainer = styled(Container)`
   background-position: inherit;
   min-height: 400px;
   font-weight: bold;
+  color: #393492;
 `;
 
 
