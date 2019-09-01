@@ -1,0 +1,5386 @@
+@font-face {
+  font-family: 'micon';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/micon.eot");
+  src: url("./fonts/micon.eot?#iefix") format("embedded-opentype"), url("./fonts/micon.woff2") format("woff2"), url("./fonts/micon.woff") format("woff"), url("./fonts/micon.ttf") format("truetype"), url("./fonts/micon.svg#micon") format("svg"); }
+
+[class^="mdl2-"]::before, [class*="mdl2-"]::before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-family: 'micon';
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-weight: 400; }
+
+
+  .mdl2-Accept::before, .mdl2-AcceptLegacy::before, .mdl2-CheckmarkListviewLegacy::before, .mdl2-CheckmarkMenuLegacy::before {
+    content: "\EA01"; }
+  
+  .mdl2-Accident::before {
+    content: "\EA02"; }
+  
+  .mdl2-AccidentSolid::before {
+    content: "\EA03"; }
+  
+  .mdl2-Accounts::before, .mdl2-AccountsLegacy::before {
+    content: "\EA04"; }
+  
+  .mdl2-ActionCenter::before {
+    content: "\EA05"; }
+  
+  .mdl2-ActionCenterAsterisk::before {
+    content: "\EA06"; }
+  
+  .mdl2-ActionCenterMirrored::before {
+    content: "\EA07"; }
+  
+  .mdl2-ActionCenterNotification::before {
+    content: "\EA08"; }
+  
+  .mdl2-ActionCenterNotificationMirrored::before {
+    content: "\EA09"; }
+  
+  .mdl2-ActionCenterQuiet::before {
+    content: "\EA0A"; }
+  
+  .mdl2-ActionCenterQuietNotification::before {
+    content: "\EA0B"; }
+  
+  .mdl2-Add::before, .mdl2-AddLegacy::before {
+    content: "\EA0C"; }
+  
+  .mdl2-AddFriend::before, .mdl2-AddFriendLegacy::before {
+    content: "\EA0D"; }
+  
+  .mdl2-AddRemoteDevice::before {
+    content: "\EA0E"; }
+  
+  .mdl2-AddSurfaceHub::before {
+    content: "\EA0F"; }
+  
+  .mdl2-AddTo::before {
+    content: "\EA10"; }
+  
+  .mdl2-AdjustHologram::before {
+    content: "\EA11"; }
+  
+  .mdl2-Admin::before, .mdl2-AdminLegacy::before {
+    content: "\EA12"; }
+  
+  .mdl2-Airplane::before {
+    content: "\EA13"; }
+  
+  .mdl2-AirplaneSolid::before {
+    content: "\EA14"; }
+  
+  .mdl2-AlignCenter::before, .mdl2-AlignCenterLegacy::before {
+    content: "\EA15"; }
+  
+  .mdl2-AlignLeft::before, .mdl2-AlignLeftLegacy::before {
+    content: "\EA16"; }
+  
+  .mdl2-AlignRight::before, .mdl2-AlignRightLegacy::before {
+    content: "\EA17"; }
+  
+  .mdl2-AllApps::before, .mdl2-AllAppsLegacy::before {
+    content: "\EA18"; }
+  
+  .mdl2-AllAppsMirrored::before, .mdl2-AllAppsLegacyMirrored::before {
+    content: "\EA19"; }
+  
+  .mdl2-Annotation::before {
+    content: "\EA1A"; }
+  
+  .mdl2-AppIconDefault::before {
+    content: "\EA1B"; }
+  
+  .mdl2-Apps::before {
+    content: "\EA1C"; }
+  
+  .mdl2-AreaChart::before {
+    content: "\EA1D"; }
+  
+  .mdl2-ArrowDown8::before {
+    content: "\EA1E"; }
+  
+  .mdl2-ArrowLeft8::before {
+    content: "\EA1F"; }
+  
+  .mdl2-ArrowRight8::before {
+    content: "\EA20"; }
+  
+  .mdl2-ArrowUp8::before {
+    content: "\EA21"; }
+  
+  .mdl2-AspectRatio::before {
+    content: "\EA22"; }
+  
+  .mdl2-Asterisk::before {
+    content: "\EA23"; }
+  
+  .mdl2-AsteriskBadge12::before {
+    content: "\EA24"; }
+  
+  .mdl2-Attach::before, .mdl2-AttachLegacy::before {
+    content: "\EA25"; }
+  
+  .mdl2-AttachCamera::before, .mdl2-AttachCameraLegacy::before {
+    content: "\EA26"; }
+  
+  .mdl2-Audio::before, .mdl2-AudioLegacy::before {
+    content: "\EA27"; }
+  
+  .mdl2-Back::before, .mdl2-ArrowHTMLLegacy::before, .mdl2-BackBttnArrow20Legacy::before, .mdl2-BackBttnArrow42Legacy::before, .mdl2-BackLegacy::before {
+    content: "\EA28"; }
+  
+  .mdl2-BackMirrored::before {
+    content: "\EA29"; }
+  
+  .mdl2-BackSpaceQWERTY::before, .mdl2-CalculatorBackspace::before, .mdl2-BackSpaceQWERTY::before {
+    content: "\EA2A"; }
+  
+  .mdl2-BackSpaceQWERTYLg::before {
+    content: "\EA2B"; }
+  
+  .mdl2-BackSpaceQWERTYMd::before {
+    content: "\EA2C"; }
+  
+  .mdl2-BackSpaceQWERTYSm::before {
+    content: "\EA2D"; }
+  
+  .mdl2-BackToWindow::before, .mdl2-BackToWindowLegacy::before {
+    content: "\EA2E"; }
+  
+  .mdl2-BackgroundToggle::before {
+    content: "\EA2F"; }
+  
+  .mdl2-Badge::before {
+    content: "\EA30"; }
+  
+  .mdl2-BandBattery0::before {
+    content: "\EA31"; }
+  
+  .mdl2-BandBattery1::before {
+    content: "\EA32"; }
+  
+  .mdl2-BandBattery2::before {
+    content: "\EA33"; }
+  
+  .mdl2-BandBattery3::before {
+    content: "\EA34"; }
+  
+  .mdl2-BandBattery4::before {
+    content: "\EA35"; }
+  
+  .mdl2-BandBattery5::before {
+    content: "\EA36"; }
+  
+  .mdl2-BandBattery6::before {
+    content: "\EA37"; }
+  
+  .mdl2-Bank::before {
+    content: "\EA38"; }
+  
+  .mdl2-BarcodeScanner::before {
+    content: "\EA39"; }
+  
+  .mdl2-Battery0::before {
+    content: "\EA3A"; }
+  
+  .mdl2-Battery1::before {
+    content: "\EA3B"; }
+  
+  .mdl2-Battery10::before {
+    content: "\EA3C"; }
+  
+  .mdl2-Battery2::before {
+    content: "\EA3D"; }
+  
+  .mdl2-Battery3::before {
+    content: "\EA3E"; }
+  
+  .mdl2-Battery4::before {
+    content: "\EA3F"; }
+  
+  .mdl2-Battery5::before {
+    content: "\EA40"; }
+  
+  .mdl2-Battery6::before {
+    content: "\EA41"; }
+  
+  .mdl2-Battery7::before {
+    content: "\EA42"; }
+  
+  .mdl2-Battery8::before {
+    content: "\EA43"; }
+  
+  .mdl2-Battery9::before {
+    content: "\EA44"; }
+  
+  .mdl2-BatteryCharging0::before {
+    content: "\EA45"; }
+  
+  .mdl2-BatteryCharging1::before {
+    content: "\EA46"; }
+  
+  .mdl2-BatteryCharging10::before {
+    content: "\EA47"; }
+  
+  .mdl2-BatteryCharging2::before {
+    content: "\EA48"; }
+  
+  .mdl2-BatteryCharging3::before {
+    content: "\EA49"; }
+  
+  .mdl2-BatteryCharging4::before {
+    content: "\EA4A"; }
+  
+  .mdl2-BatteryCharging5::before {
+    content: "\EA4B"; }
+  
+  .mdl2-BatteryCharging6::before {
+    content: "\EA4C"; }
+  
+  .mdl2-BatteryCharging7::before {
+    content: "\EA4D"; }
+  
+  .mdl2-BatteryCharging8::before {
+    content: "\EA4E"; }
+  
+  .mdl2-BatteryCharging9::before {
+    content: "\EA4F"; }
+  
+  .mdl2-BatterySaver0::before {
+    content: "\EA50"; }
+  
+  .mdl2-BatterySaver1::before {
+    content: "\EA51"; }
+  
+  .mdl2-BatterySaver10::before {
+    content: "\EA52"; }
+  
+  .mdl2-BatterySaver2::before {
+    content: "\EA53"; }
+  
+  .mdl2-BatterySaver3::before {
+    content: "\EA54"; }
+  
+  .mdl2-BatterySaver4::before {
+    content: "\EA55"; }
+  
+  .mdl2-BatterySaver5::before {
+    content: "\EA56"; }
+  
+  .mdl2-BatterySaver6::before {
+    content: "\EA57"; }
+  
+  .mdl2-BatterySaver7::before {
+    content: "\EA58"; }
+  
+  .mdl2-BatterySaver8::before {
+    content: "\EA59"; }
+  
+  .mdl2-BatterySaver9::before {
+    content: "\EA5A"; }
+  
+  .mdl2-BatteryUnknown::before {
+    content: "\EA5B"; }
+  
+  .mdl2-Beta::before {
+    content: "\EA5C"; }
+  
+  .mdl2-BidiLtr::before {
+    content: "\EA5D"; }
+  
+  .mdl2-BidiRtl::before {
+    content: "\EA5E"; }
+  
+  .mdl2-BlockContact::before, .mdl2-BlockContactLegacy::before {
+    content: "\EA5F"; }
+  
+  .mdl2-Blocked::before, .mdl2-BlockedLegacy::before {
+    content: "\EA60"; }
+  
+  .mdl2-BlockedLegacy::before, .mdl2-Blocked::before, .mdl2-BlockedLegacy::before {
+    content: "\EA61"; }
+  
+  .mdl2-BlueLight::before {
+    content: "\EA62"; }
+  
+  .mdl2-Bluetooth::before {
+    content: "\EA63"; }
+  
+  .mdl2-BodyCam::before {
+    content: "\EA64"; }
+  
+  .mdl2-Bold::before, .mdl2-BoldLegacy::before {
+    content: "\EA65"; }
+  
+  .mdl2-BoldF::before, .mdl2-BoldFLegacy::before {
+    content: "\EA66"; }
+  
+  .mdl2-BoldFLegacy::before, .mdl2-BoldF::before, .mdl2-BoldFLegacy::before {
+    content: "\EA67"; }
+  
+  .mdl2-BoldG::before, .mdl2-BoldGLegacy::before {
+    content: "\EA68"; }
+  
+  .mdl2-BoldGLegacy::before, .mdl2-BoldG::before, .mdl2-BoldGLegacy::before {
+    content: "\EA69"; }
+  
+  .mdl2-BoldKorean::before, .mdl2-BoldKoreanLegacy::before {
+    content: "\EA6A"; }
+  
+  .mdl2-BoldKoreanLegacy::before, .mdl2-BoldKorean::before, .mdl2-BoldKoreanLegacy::before {
+    content: "\EA6B"; }
+  
+  .mdl2-BoldN::before, .mdl2-BoldNLegacy::before {
+    content: "\EA6C"; }
+  
+  .mdl2-BoldNLegacy::before, .mdl2-BoldN::before, .mdl2-BoldNLegacy::before {
+    content: "\EA6D"; }
+  
+  .mdl2-BoldRussion::before, .mdl2-BoldRussionLegacy::before {
+    content: "\EA6E"; }
+  
+  .mdl2-BoldRussionLegacy::before, .mdl2-BoldRussion::before, .mdl2-BoldRussionLegacy::before {
+    content: "\EA6F"; }
+  
+  .mdl2-Bookmarks::before, .mdl2-BookmarksLegacy::before {
+    content: "\EA70"; }
+  
+  .mdl2-BookmarksMirrored::before, .mdl2-BookmarksLegacyMirrored::before {
+    content: "\EA71"; }
+  
+  .mdl2-Brightness::before {
+    content: "\EA72"; }
+  
+  .mdl2-Broom::before {
+    content: "\EA73"; }
+  
+  .mdl2-BrowsePhotos::before, .mdl2-BrowsePhotosLegacy::before {
+    content: "\EA74"; }
+  
+  .mdl2-BrushSize::before {
+    content: "\EA75"; }
+  
+  .mdl2-Bug::before {
+    content: "\EA76"; }
+  
+  .mdl2-BuildingEnergy::before {
+    content: "\EA77"; }
+  
+  .mdl2-BulletedList::before, .mdl2-BulletedListLegacy::before, .mdl2-ListLegacy::before {
+    content: "\EA78"; }
+  
+  .mdl2-BulletedListMirrored::before, .mdl2-BulletedListLegacyMirrored::before, .mdl2-ListLegacyMirrored::before {
+    content: "\EA79"; }
+  
+  .mdl2-Bullseye::before {
+    content: "\EA7A"; }
+  
+  .mdl2-BumperLeft::before {
+    content: "\EA7B"; }
+  
+  .mdl2-BumperRight::before {
+    content: "\EA7C"; }
+  
+  .mdl2-Bus::before {
+    content: "\EA7D"; }
+  
+  .mdl2-BusSolid::before {
+    content: "\EA7E"; }
+  
+  .mdl2-ButtonA::before {
+    content: "\EA7F"; }
+  
+  .mdl2-ButtonB::before {
+    content: "\EA80"; }
+  
+  .mdl2-ButtonMenu::before {
+    content: "\EA81"; }
+  
+  .mdl2-ButtonView2::before {
+    content: "\EA82"; }
+  
+  .mdl2-ButtonX::before {
+    content: "\EA83"; }
+  
+  .mdl2-ButtonY::before {
+    content: "\EA84"; }
+  
+  .mdl2-CC::before, .mdl2-CCLegacy::before {
+    content: "\EA85"; }
+  
+  .mdl2-CCEuro::before, .mdl2-CCEuroLegacy::before {
+    content: "\EA86"; }
+  
+  .mdl2-CCEuroLegacy::before, .mdl2-CCEuro::before, .mdl2-CCEuroLegacy::before {
+    content: "\EA87"; }
+  
+  .mdl2-CCJapan::before, .mdl2-CCJapanLegacy::before {
+    content: "\EA88"; }
+  
+  .mdl2-CCJapanLegacy::before, .mdl2-CCJapan::before, .mdl2-CCJapanLegacy::before {
+    content: "\EA89"; }
+  
+  .mdl2-Cafe::before {
+    content: "\EA8A"; }
+  
+  .mdl2-Calculator::before, .mdl2-CalculatorLegacy::before {
+    content: "\EA8B"; }
+  
+  .mdl2-CalculatorAddition::before {
+    content: "\EA8C"; }
+  
+  .mdl2-CalculatorBackspace::before, .mdl2-BackSpaceQWERTY::before {
+    content: "\EA8D"; }
+  
+  .mdl2-CalculatorDivide::before {
+    content: "\EA8E"; }
+  
+  .mdl2-CalculatorEqualTo::before {
+    content: "\EA8F"; }
+  
+  .mdl2-CalculatorMultiply::before {
+    content: "\EA90"; }
+  
+  .mdl2-CalculatorNegate::before {
+    content: "\EA91"; }
+  
+  .mdl2-CalculatorPercentage::before {
+    content: "\EA92"; }
+  
+  .mdl2-CalculatorSquareroot::before {
+    content: "\EA93"; }
+  
+  .mdl2-CalculatorSubtract::before {
+    content: "\EA94"; }
+  
+  .mdl2-Calendar::before, .mdl2-CalendarLegacy::before {
+    content: "\EA95"; }
+  
+  .mdl2-CalendarDay::before, .mdl2-CalendarDayLegacy::before {
+    content: "\EA96"; }
+  
+  .mdl2-CalendarMirrored::before, .mdl2-CalendarLegacyMirrored::before {
+    content: "\EA97"; }
+  
+  .mdl2-CalendarReply::before, .mdl2-CalendarReplyLegacy::before {
+    content: "\EA98"; }
+  
+  .mdl2-CalendarSolid::before {
+    content: "\EA99"; }
+  
+  .mdl2-CalendarWeek::before, .mdl2-CalendarWeekLegacy::before {
+    content: "\EA9A"; }
+  
+  .mdl2-CallForwardInternational::before {
+    content: "\EA9B"; }
+  
+  .mdl2-CallForwardInternationalMirrored::before {
+    content: "\EA9C"; }
+  
+  .mdl2-CallForwardRoaming::before {
+    content: "\EA9D"; }
+  
+  .mdl2-CallForwardRoamingMirrored::before {
+    content: "\EA9E"; }
+  
+  .mdl2-CallForwarding::before {
+    content: "\EA9F"; }
+  
+  .mdl2-CallForwardingMirrored::before {
+    content: "\EAA0"; }
+  
+  .mdl2-CalligraphyFill::before {
+    content: "\EAA1"; }
+  
+  .mdl2-CalligraphyPen::before {
+    content: "\EAA2"; }
+  
+  .mdl2-Calories::before {
+    content: "\EAA3"; }
+  
+  .mdl2-Camera::before, .mdl2-CameraLegacy::before {
+    content: "\EAA4"; }
+  
+  .mdl2-Cancel::before, .mdl2-CancelLegacy::before {
+    content: "\EAA5"; }
+  
+  .mdl2-Caption::before, .mdl2-CaptionLegacy::before {
+    content: "\EAA6"; }
+  
+  .mdl2-Car::before, .mdl2-DrivingMode::before {
+    content: "\EAA7"; }
+  
+  .mdl2-CaretBottomRightSolidCenter8::before {
+    content: "\EAA8"; }
+  
+  .mdl2-CaretDownSolid8::before {
+    content: "\EAA9"; }
+  
+  .mdl2-CaretLeftSolid8::before {
+    content: "\EAAA"; }
+  
+  .mdl2-CaretRight8::before {
+    content: "\EAAB"; }
+  
+  .mdl2-CaretRightSolid8::before {
+    content: "\EAAC"; }
+  
+  .mdl2-CaretUpSolid8::before {
+    content: "\EAAD"; }
+  
+  .mdl2-CashDrawer::before {
+    content: "\EAAE"; }
+  
+  .mdl2-CellPhone::before, .mdl2-CellPhoneLegacy::before, .mdl2-MobileContactLegacy::before {
+    content: "\EAAF"; }
+  
+  .mdl2-Certificate::before {
+    content: "\EAB0"; }
+  
+  .mdl2-CharacterAppearance::before {
+    content: "\EAB1"; }
+  
+  .mdl2-Characters::before, .mdl2-CharactersLegacy::before {
+    content: "\EAB2"; }
+  
+  .mdl2-ChatBubbles::before {
+    content: "\EAB3"; }
+  
+  .mdl2-CheckList::before {
+    content: "\EAB4"; }
+  
+  .mdl2-CheckMark::before, .mdl2-CheckMarkLegacy::before, .mdl2-CheckMarkZeroWidthLegacy::before {
+    content: "\EAB5"; }
+  
+  .mdl2-Checkbox::before, .mdl2-CheckboxLegacy::before {
+    content: "\EAB6"; }
+  
+  .mdl2-Checkbox14::before {
+    content: "\EAB7"; }
+  
+  .mdl2-CheckboxComposite::before, .mdl2-CheckboxCompositeLegacy::before {
+    content: "\EAB8"; }
+  
+  .mdl2-CheckboxComposite14::before {
+    content: "\EAB9"; }
+  
+  .mdl2-CheckboxCompositeReversed::before, .mdl2-CheckboxCompositeReversedLegacy::before {
+    content: "\EABA"; }
+  
+  .mdl2-CheckboxFill::before, .mdl2-CheckboxFillLegacy::before, .mdl2-CheckboxFillZeroWidthLegacy::before, .mdl2-PresenceChicklet::before, .mdl2-PresenceChickletLegacy::before, .mdl2-ResizeMouseLarge::before {
+    content: "\EABB"; }
+  
+  .mdl2-CheckboxIndeterminate::before, .mdl2-CheckboxIndeterminateLegacy::before {
+    content: "\EABC"; }
+  
+  .mdl2-CheckboxIndeterminateCombo::before {
+    content: "\EABD"; }
+  
+  .mdl2-CheckboxIndeterminateCombo14::before {
+    content: "\EABE"; }
+  
+  .mdl2-ChecklistMirrored::before {
+    content: "\EABF"; }
+  
+  .mdl2-ChevronDown::before, .mdl2-ChevronDown1Legacy::before, .mdl2-ChevronDown2Legacy::before, .mdl2-ChevronDown3Legacy::before, .mdl2-ChevronDown4Legacy::before, .mdl2-ChevronFlipDownLegacy::before, .mdl2-ScrollChevronDownBoldLegacy::before, .mdl2-ScrollChevronDownLegacy::before {
+    content: "\EAC0"; }
+  
+  .mdl2-ChevronDownMed::before {
+    content: "\EAC1"; }
+  
+  .mdl2-ChevronDownSmall::before, .mdl2-ChevronDownSmLegacy::before {
+    content: "\EAC2"; }
+  
+  .mdl2-ChevronLeft::before, .mdl2-ChevronFlipLeftLegacy::before, .mdl2-ChevronLeft1Legacy::before, .mdl2-ChevronLeft2Legacy::before, .mdl2-ChevronLeft3Legacy::before, .mdl2-ChevronLeft4Legacy::before, .mdl2-ScrollChevronLeftBoldLegacy::before, .mdl2-ScrollChevronLeftLegacy::before {
+    content: "\EAC3"; }
+  
+  .mdl2-ChevronLeftMed::before {
+    content: "\EAC4"; }
+  
+  .mdl2-ChevronLeftSmall::before, .mdl2-ChevronLeftSmLegacy::before {
+    content: "\EAC5"; }
+  
+  .mdl2-ChevronRight::before, .mdl2-ChevronFlipRightLegacy::before, .mdl2-ChevronRight1Legacy::before, .mdl2-ChevronRight2Legacy::before, .mdl2-ChevronRight3Legacy::before, .mdl2-ChevronRight4Legacy::before, .mdl2-ScrollChevronRightBoldLegacy::before, .mdl2-ScrollChevronRightLegacy::before {
+    content: "\EAC6"; }
+  
+  .mdl2-ChevronRightMed::before {
+    content: "\EAC7"; }
+  
+  .mdl2-ChevronRightSmall::before, .mdl2-ChevronRightSmLegacy::before {
+    content: "\EAC8"; }
+  
+  .mdl2-ChevronUp::before, .mdl2-ChevronFlipUpLegacy::before, .mdl2-ChevronUp1Legacy::before, .mdl2-ChevronUp2Legacy::before, .mdl2-ChevronUp3Legacy::before, .mdl2-ChevronUp4Legacy::before, .mdl2-ScrollChevronUpBoldLegacy::before, .mdl2-ScrollChevronUpLegacy::before {
+    content: "\EAC9"; }
+  
+  .mdl2-ChevronUpMed::before {
+    content: "\EACA"; }
+  
+  .mdl2-ChevronUpSmall::before {
+    content: "\EACB"; }
+  
+  .mdl2-ChineseBoPoMoFo::before {
+    content: "\EACC"; }
+  
+  .mdl2-ChineseChangjie::before {
+    content: "\EACD"; }
+  
+  .mdl2-ChinesePinyin::before {
+    content: "\EACE"; }
+  
+  .mdl2-ChinesePunctuation::before {
+    content: "\EACF"; }
+  
+  .mdl2-ChineseQuick::before {
+    content: "\EAD0"; }
+  
+  .mdl2-ChipCardCreditCardReader::before {
+    content: "\EAD1"; }
+  
+  .mdl2-ChromeAnnotate::before {
+    content: "\EAD2"; }
+  
+  .mdl2-ChromeAnnotateContrast::before {
+    content: "\EAD3"; }
+  
+  .mdl2-ChromeBack::before {
+    content: "\EAD4"; }
+  
+  .mdl2-ChromeBackContrast::before {
+    content: "\EAD5"; }
+  
+  .mdl2-ChromeBackContrastMirrored::before {
+    content: "\EAD6"; }
+  
+  .mdl2-ChromeBackMirrored::before {
+    content: "\EAD7"; }
+  
+  .mdl2-ChromeBackToWindow::before {
+    content: "\EAD8"; }
+  
+  .mdl2-ChromeBackToWindowContrast::before {
+    content: "\EAD9"; }
+  
+  .mdl2-ChromeClose::before {
+    content: "\EADA"; }
+  
+  .mdl2-ChromeCloseContrast::before {
+    content: "\EADB"; }
+  
+  .mdl2-ChromeFullScreen::before {
+    content: "\EADC"; }
+  
+  .mdl2-ChromeFullScreenContrast::before {
+    content: "\EADD"; }
+  
+  .mdl2-ChromeMaximize::before {
+    content: "\EADE"; }
+  
+  .mdl2-ChromeMaximizeContrast::before {
+    content: "\EADF"; }
+  
+  .mdl2-ChromeMinimize::before {
+    content: "\EAE0"; }
+  
+  .mdl2-ChromeMinimizeContrast::before {
+    content: "\EAE1"; }
+  
+  .mdl2-ChromeRestore::before {
+    content: "\EAE2"; }
+  
+  .mdl2-ChromeRestoreContrast::before {
+    content: "\EAE3"; }
+  
+  .mdl2-ChromeSwitch::before {
+    content: "\EAE4"; }
+  
+  .mdl2-ChromeSwitchContast::before {
+    content: "\EAE5"; }
+  
+  .mdl2-CircleFill::before {
+    content: "\EAE6"; }
+  
+  .mdl2-CircleFillBadge12::before {
+    content: "\EAE7"; }
+  
+  .mdl2-CircleRing::before {
+    content: "\EAE8"; }
+  
+  .mdl2-CircleRingBadge12::before {
+    content: "\EAE9"; }
+  
+  .mdl2-CityNext::before {
+    content: "\EAEA"; }
+  
+  .mdl2-CityNext2::before {
+    content: "\EAEB"; }
+  
+  .mdl2-Clear::before, .mdl2-ClearLegacy::before {
+    content: "\EAEC"; }
+  
+  .mdl2-ClearAllInk::before {
+    content: "\EAED"; }
+  
+  .mdl2-ClearAllInkMirrored::before {
+    content: "\EAEE"; }
+  
+  .mdl2-ClearSelection::before, .mdl2-ClearSelectionLegacy::before {
+    content: "\EAEF"; }
+  
+  .mdl2-ClearSelectionMirrored::before, .mdl2-ClearSelectionLegacyMirrored::before {
+    content: "\EAF0"; }
+  
+  .mdl2-Click::before {
+    content: "\EAF1"; }
+  
+  .mdl2-ClipboardList::before {
+    content: "\EAF2"; }
+  
+  .mdl2-ClipboardListMirrored::before {
+    content: "\EAF3"; }
+  
+  .mdl2-ClippingTool::before {
+    content: "\EAF4"; }
+  
+  .mdl2-Clock::before, .mdl2-ClockLegacy::before {
+    content: "\EAF5"; }
+  
+  .mdl2-ClockLegacy::before, .mdl2-Clock::before, .mdl2-ClockLegacy::before {
+    content: "\EAF6"; }
+  
+  .mdl2-ClosePane::before, .mdl2-ClosePaneLegacy::before {
+    content: "\EAF7"; }
+  
+  .mdl2-ClosePaneMirrored::before, .mdl2-ClosePaneLegacyMirrored::before {
+    content: "\EAF8"; }
+  
+  .mdl2-Cloud::before {
+    content: "\EAF9"; }
+  
+  .mdl2-CloudPrinter::before {
+    content: "\EAFA"; }
+  
+  .mdl2-CloudSeach::before {
+    content: "\EAFB"; }
+  
+  .mdl2-Code::before {
+    content: "\EAFC"; }
+  
+  .mdl2-CollapseContent::before {
+    content: "\EAFD"; }
+  
+  .mdl2-CollapseContentSingle::before {
+    content: "\EAFE"; }
+  
+  .mdl2-CollateLandscape::before {
+    content: "\EAFF"; }
+  
+  .mdl2-CollateLandscapeSeparated::before {
+    content: "\EB00"; }
+  
+  .mdl2-CollatePortrait::before {
+    content: "\EB01"; }
+  
+  .mdl2-CollatePortraitSeparated::before {
+    content: "\EB02"; }
+  
+  .mdl2-Color::before, .mdl2-ColorLegacy::before {
+    content: "\EB03"; }
+  
+  .mdl2-ColorOff::before {
+    content: "\EB04"; }
+  
+  .mdl2-CommaKey::before {
+    content: "\EB05"; }
+  
+  .mdl2-CommandPrompt::before {
+    content: "\EB06"; }
+  
+  .mdl2-Comment::before, .mdl2-CommentLegacy::before {
+    content: "\EB07"; }
+  
+  .mdl2-Communications::before {
+    content: "\EB08"; }
+  
+  .mdl2-CompanionApp::before {
+    content: "\EB09"; }
+  
+  .mdl2-CompanionDeviceFramework::before {
+    content: "\EB0A"; }
+  
+  .mdl2-Completed::before {
+    content: "\EB0B"; }
+  
+  .mdl2-CompletedSolid::before {
+    content: "\EB0C"; }
+  
+  .mdl2-Component::before {
+    content: "\EB0D"; }
+  
+  .mdl2-Connect::before {
+    content: "\EB0E"; }
+  
+  .mdl2-ConnectApp::before, .mdl2-MiracastLogoLarge::before {
+    content: "\EB0F"; }
+  
+  .mdl2-Connected::before {
+    content: "\EB10"; }
+  
+  .mdl2-Construction::before {
+    content: "\EB11"; }
+  
+  .mdl2-ConstructionCone::before {
+    content: "\EB12"; }
+  
+  .mdl2-ConstructionSolid::before {
+    content: "\EB13"; }
+  
+  .mdl2-Contact::before, .mdl2-Contact3Legacy::before, .mdl2-ContactLegacy::before {
+    content: "\EB14"; }
+  
+  .mdl2-Contact2::before, .mdl2-Contact2Legacy::before {
+    content: "\EB15"; }
+  
+  .mdl2-ContactInfo::before, .mdl2-ContactInfoLegacy::before {
+    content: "\EB16"; }
+  
+  .mdl2-ContactInfoMirrored::before {
+    content: "\EB17"; }
+  
+  .mdl2-ContactPresence::before, .mdl2-ContactPresenceLegacy::before {
+    content: "\EB18"; }
+  
+  .mdl2-ContactSolid::before {
+    content: "\EB19"; }
+  
+  .mdl2-Copy::before, .mdl2-CopyLegacy::before {
+    content: "\EB1A"; }
+  
+  .mdl2-CopyTo::before {
+    content: "\EB1B"; }
+  
+  .mdl2-Courthouse::before {
+    content: "\EB1C"; }
+  
+  .mdl2-Crop::before, .mdl2-CropLegacy::before {
+    content: "\EB1D"; }
+  
+  .mdl2-CtrlSpatialLeft::before {
+    content: "\EB1E"; }
+  
+  .mdl2-CtrlSpatialRight::before {
+    content: "\EB1F"; }
+  
+  .mdl2-Cut::before, .mdl2-CutLegacy::before {
+    content: "\EB20"; }
+  
+  .mdl2-DMC::before {
+    content: "\EB21"; }
+  
+  .mdl2-DashKey::before {
+    content: "\EB22"; }
+  
+  .mdl2-DataSense::before {
+    content: "\EB23"; }
+  
+  .mdl2-DataSenseBar::before {
+    content: "\EB24"; }
+  
+  .mdl2-DateTime::before {
+    content: "\EB25"; }
+  
+  .mdl2-DateTimeMirrored::before {
+    content: "\EB26"; }
+  
+  .mdl2-DecreaseIndent::before, .mdl2-DecreaseIndentLegacy::before {
+    content: "\EB27"; }
+  
+  .mdl2-DecreaseIndentLegacy::before, .mdl2-DecreaseIndent::before, .mdl2-DecreaseIndentLegacy::before {
+    content: "\EB28"; }
+  
+  .mdl2-DecreaseIndentLegacyMirrored::before, .mdl2-DecreaseIndentMirrored::before, .mdl2-DecreaseIndentLegacyMirrored::before {
+    content: "\EB29"; }
+  
+  .mdl2-DecreaseIndentMirrored::before, .mdl2-DecreaseIndentLegacyMirrored::before {
+    content: "\EB2A"; }
+  
+  .mdl2-DefaultAPN::before {
+    content: "\EB2B"; }
+  
+  .mdl2-DefenderApp::before {
+    content: "\EB2C"; }
+  
+  .mdl2-DefenderBadge12::before {
+    content: "\EB2D"; }
+  
+  .mdl2-Delete::before, .mdl2-DeleteLegacy::before {
+    content: "\EB2E"; }
+  
+  .mdl2-Design::before {
+    content: "\EB2F"; }
+  
+  .mdl2-DetachablePC::before {
+    content: "\EB30"; }
+  
+  .mdl2-DevUpdate::before {
+    content: "\EB31"; }
+  
+  .mdl2-DeveloperTools::before {
+    content: "\EB32"; }
+  
+  .mdl2-DeviceDiscovery::before {
+    content: "\EB33"; }
+  
+  .mdl2-DeviceLaptopNoPic::before {
+    content: "\EB34"; }
+  
+  .mdl2-DeviceLaptopPic::before {
+    content: "\EB35"; }
+  
+  .mdl2-DeviceMonitorLeftPic::before {
+    content: "\EB36"; }
+  
+  .mdl2-DeviceMonitorNoPic::before {
+    content: "\EB37"; }
+  
+  .mdl2-DeviceMonitorRightPic::before {
+    content: "\EB38"; }
+  
+  .mdl2-Devices::before {
+    content: "\EB39"; }
+  
+  .mdl2-Devices2::before, .mdl2-DevicesLegacy::before {
+    content: "\EB3A"; }
+  
+  .mdl2-Devices3::before {
+    content: "\EB3B"; }
+  
+  .mdl2-Devices4::before {
+    content: "\EB3C"; }
+  
+  .mdl2-DevicesLegacy::before, .mdl2-Devices2::before, .mdl2-DevicesLegacy::before {
+    content: "\EB3D"; }
+  
+  .mdl2-Diagnostic::before {
+    content: "\EB3E"; }
+  
+  .mdl2-Dial1::before {
+    content: "\EB3F"; }
+  
+  .mdl2-Dial10::before {
+    content: "\EB40"; }
+  
+  .mdl2-Dial11::before {
+    content: "\EB41"; }
+  
+  .mdl2-Dial12::before {
+    content: "\EB42"; }
+  
+  .mdl2-Dial13::before {
+    content: "\EB43"; }
+  
+  .mdl2-Dial14::before {
+    content: "\EB44"; }
+  
+  .mdl2-Dial15::before {
+    content: "\EB45"; }
+  
+  .mdl2-Dial16::before {
+    content: "\EB46"; }
+  
+  .mdl2-Dial2::before {
+    content: "\EB47"; }
+  
+  .mdl2-Dial3::before {
+    content: "\EB48"; }
+  
+  .mdl2-Dial4::before {
+    content: "\EB49"; }
+  
+  .mdl2-Dial5::before {
+    content: "\EB4A"; }
+  
+  .mdl2-Dial6::before {
+    content: "\EB4B"; }
+  
+  .mdl2-Dial7::before {
+    content: "\EB4C"; }
+  
+  .mdl2-Dial8::before {
+    content: "\EB4D"; }
+  
+  .mdl2-Dial9::before {
+    content: "\EB4E"; }
+  
+  .mdl2-DialShape1::before {
+    content: "\EB4F"; }
+  
+  .mdl2-DialShape2::before {
+    content: "\EB50"; }
+  
+  .mdl2-DialShape3::before {
+    content: "\EB51"; }
+  
+  .mdl2-DialShape4::before {
+    content: "\EB52"; }
+  
+  .mdl2-DialUp::before {
+    content: "\EB53"; }
+  
+  .mdl2-Dialpad::before {
+    content: "\EB54"; }
+  
+  .mdl2-Dictionary::before {
+    content: "\EB55"; }
+  
+  .mdl2-DictionaryAdd::before {
+    content: "\EB56"; }
+  
+  .mdl2-DictionaryCloud::before {
+    content: "\EB57"; }
+  
+  .mdl2-DirectAccess::before {
+    content: "\EB58"; }
+  
+  .mdl2-Directions::before, .mdl2-DirectionsLegacy::before {
+    content: "\EB59"; }
+  
+  .mdl2-DisableUpdates::before, .mdl2-DisableUpdatesLegacy::before {
+    content: "\EB5A"; }
+  
+  .mdl2-DisconnectDisplay::before {
+    content: "\EB5B"; }
+  
+  .mdl2-DisconnectDrive::before, .mdl2-DisconnectDriveLegacy::before {
+    content: "\EB5C"; }
+  
+  .mdl2-Dislike::before, .mdl2-DislikeLegacy::before {
+    content: "\EB5D"; }
+  
+  .mdl2-Dock::before {
+    content: "\EB5E"; }
+  
+  .mdl2-DockBottom::before, .mdl2-DockBottomLegacy::before {
+    content: "\EB5F"; }
+  
+  .mdl2-DockLeft::before, .mdl2-DockLeftLegacy::before {
+    content: "\EB60"; }
+  
+  .mdl2-DockLeftMirrored::before, .mdl2-DockLeftLegacyMirrored::before {
+    content: "\EB61"; }
+  
+  .mdl2-DockRight::before, .mdl2-DockRightLegacy::before {
+    content: "\EB62"; }
+  
+  .mdl2-DockRightMirrored::before, .mdl2-DockRightLegacyMirrored::before {
+    content: "\EB63"; }
+  
+  .mdl2-Document::before, .mdl2-DocumentLegacy::before {
+    content: "\EB64"; }
+  
+  .mdl2-DoublePinyin::before {
+    content: "\EB65"; }
+  
+  .mdl2-Down::before, .mdl2-DownLegacy::before {
+    content: "\EB66"; }
+  
+  .mdl2-DownShiftKey::before {
+    content: "\EB67"; }
+  
+  .mdl2-Download::before, .mdl2-DownloadLegacy::before {
+    content: "\EB68"; }
+  
+  .mdl2-DownloadMap::before {
+    content: "\EB69"; }
+  
+  .mdl2-Dpad::before {
+    content: "\EB6A"; }
+  
+  .mdl2-Draw::before {
+    content: "\EB6B"; }
+  
+  .mdl2-DrawSolid::before {
+    content: "\EB6C"; }
+  
+  .mdl2-Drop::before {
+    content: "\EB6D"; }
+  
+  .mdl2-DullSound::before {
+    content: "\EB6E"; }
+  
+  .mdl2-DullSoundKey::before {
+    content: "\EB6F"; }
+  
+  .mdl2-DuplexLandscapeOneSided::before {
+    content: "\EB70"; }
+  
+  .mdl2-DuplexLandscapeOneSidedMirrored::before {
+    content: "\EB71"; }
+  
+  .mdl2-DuplexLandscapeTwoSidedLongEdge::before {
+    content: "\EB72"; }
+  
+  .mdl2-DuplexLandscapeTwoSidedLongEdgeMirrored::before {
+    content: "\EB73"; }
+  
+  .mdl2-DuplexLandscapeTwoSidedShortEdge::before {
+    content: "\EB74"; }
+  
+  .mdl2-DuplexLandscapeTwoSidedShortEdgeMirrored::before {
+    content: "\EB75"; }
+  
+  .mdl2-DuplexPortraitOneSided::before {
+    content: "\EB76"; }
+  
+  .mdl2-DuplexPortraitOneSidedMirrored::before {
+    content: "\EB77"; }
+  
+  .mdl2-DuplexPortraitTwoSidedLongEdge::before {
+    content: "\EB78"; }
+  
+  .mdl2-DuplexPortraitTwoSidedLongEdgeMirrored::before {
+    content: "\EB79"; }
+  
+  .mdl2-DuplexPortraitTwoSidedShortEdge::before {
+    content: "\EB7A"; }
+  
+  .mdl2-DuplexPortraitTwoSidedShortEdgeMirrored::before {
+    content: "\EB7B"; }
+  
+  .mdl2-DynamicLock::before {
+    content: "\EB7C"; }
+  
+  .mdl2-EMI::before {
+    content: "\EB7D"; }
+  
+  .mdl2-Ear::before {
+    content: "\EB7E"; }
+  
+  .mdl2-Earbud::before {
+    content: "\EB7F"; }
+  
+  .mdl2-EaseOfAccess::before, .mdl2-EaseOfAccessLegacy::before {
+    content: "\EB80"; }
+  
+  .mdl2-Edit::before, .mdl2-EditLegacy::before {
+    content: "\EB81"; }
+  
+  .mdl2-EditMirrored::before, .mdl2-EditLegacyMirrored::before {
+    content: "\EB82"; }
+  
+  .mdl2-Education::before {
+    content: "\EB83"; }
+  
+  .mdl2-Emoji::before, .mdl2-EmojiLegacy::before {
+    content: "\EB84"; }
+  
+  .mdl2-Emoji2::before, .mdl2-Emoji2Legacy::before {
+    content: "\EB85"; }
+  
+  .mdl2-EmojiSwatch::before {
+    content: "\EB86"; }
+  
+  .mdl2-EmojiTabCelebrationObjects::before {
+    content: "\EB87"; }
+  
+  .mdl2-EmojiTabFavorites::before {
+    content: "\EB88"; }
+  
+  .mdl2-EmojiTabFoodPlants::before {
+    content: "\EB89"; }
+  
+  .mdl2-EmojiTabPeople::before {
+    content: "\EB8A"; }
+  
+  .mdl2-EmojiTabSmilesAnimals::before {
+    content: "\EB8B"; }
+  
+  .mdl2-EmojiTabSymbols::before {
+    content: "\EB8C"; }
+  
+  .mdl2-EmojiTabTextSmiles::before {
+    content: "\EB8D"; }
+  
+  .mdl2-EmojiTabTransitPlaces::before {
+    content: "\EB8E"; }
+  
+  .mdl2-EndPoint::before, .mdl2-Flag::before, .mdl2-EndPoint::before, .mdl2-FlagLegacy::before {
+    content: "\EB8F"; }
+  
+  .mdl2-EndPointSolid::before {
+    content: "\EB90"; }
+  
+  .mdl2-EnglishPunctuation::before {
+    content: "\EB91"; }
+  
+  .mdl2-Equalizer::before {
+    content: "\EB92"; }
+  
+  .mdl2-EraseTool::before {
+    content: "\EB93"; }
+  
+  .mdl2-EraseToolFill::before {
+    content: "\EB94"; }
+  
+  .mdl2-EraseToolFill2::before {
+    content: "\EB95"; }
+  
+  .mdl2-Error::before {
+    content: "\EB96"; }
+  
+  .mdl2-ErrorBadge::before {
+    content: "\EB97"; }
+  
+  .mdl2-ErrorBadge12::before {
+    content: "\EB98"; }
+  
+  .mdl2-Ethernet::before {
+    content: "\EB99"; }
+  
+  .mdl2-EthernetError::before {
+    content: "\EB9A"; }
+  
+  .mdl2-EthernetWarning::before {
+    content: "\EB9B"; }
+  
+  .mdl2-ExpandTile::before, .mdl2-ExpandTileLegacy::before {
+    content: "\EB9C"; }
+  
+  .mdl2-ExpandTileMirrored::before, .mdl2-ExpandTileLegacyMirrored::before {
+    content: "\EB9D"; }
+  
+  .mdl2-ExploitProtectionSettings::before {
+    content: "\EB9E"; }
+  
+  .mdl2-ExploreContent::before {
+    content: "\EB9F"; }
+  
+  .mdl2-ExploreContentSingle::before {
+    content: "\EBA0"; }
+  
+  .mdl2-Export::before, .mdl2-ImportLegacyMirrored::before, .mdl2-ImportMirrored::before {
+    content: "\EBA1"; }
+  
+  .mdl2-EyeGaze::before {
+    content: "\EBA2"; }
+  
+  .mdl2-Eyedropper::before {
+    content: "\EBA3"; }
+  
+  .mdl2-Family::before {
+    content: "\EBA4"; }
+  
+  .mdl2-FastForward::before {
+    content: "\EBA5"; }
+  
+  .mdl2-Favicon::before {
+    content: "\EBA6"; }
+  
+  .mdl2-FavoriteLegacy::before, .mdl2-FavoriteStarFill::before, .mdl2-Favorite2Legacy::before, .mdl2-FavoriteLegacy::before, .mdl2-RatingStarFillLegacy::before, .mdl2-RatingStarFillReducedPaddingHTMLLegacy::before, .mdl2-RatingStarFillSmallLegacy::before, .mdl2-RatingStarFillZeroWidthLegacy::before, .mdl2-SolidStarLegacy::before {
+    content: "\EBA7"; }
+  
+  .mdl2-FavoriteList::before {
+    content: "\EBA8"; }
+  
+  .mdl2-FavoriteStar::before, .mdl2-FavoriteInlineLegacy::before, .mdl2-OutlineStarLegacy::before, .mdl2-RatingStarLegacy::before, .mdl2-Unfavorite2Legacy::before {
+    content: "\EBA9"; }
+  
+  .mdl2-FavoriteStarFill::before, .mdl2-Favorite2Legacy::before, .mdl2-FavoriteLegacy::before, .mdl2-RatingStarFillLegacy::before, .mdl2-RatingStarFillReducedPaddingHTMLLegacy::before, .mdl2-RatingStarFillSmallLegacy::before, .mdl2-RatingStarFillZeroWidthLegacy::before, .mdl2-SolidStarLegacy::before {
+    content: "\EBAA"; }
+  
+  .mdl2-Feedback::before {
+    content: "\EBAB"; }
+  
+  .mdl2-FeedbackApp::before {
+    content: "\EBAC"; }
+  
+  .mdl2-Ferry::before {
+    content: "\EBAD"; }
+  
+  .mdl2-FerrySolid::before {
+    content: "\EBAE"; }
+  
+  .mdl2-FileExplorer::before {
+    content: "\EBAF"; }
+  
+  .mdl2-FileExplorerApp::before {
+    content: "\EBB0"; }
+  
+  .mdl2-Filter::before, .mdl2-FilterLegacy::before {
+    content: "\EBB1"; }
+  
+  .mdl2-FingerInking::before {
+    content: "\EBB2"; }
+  
+  .mdl2-Fingerprint::before {
+    content: "\EBB3"; }
+  
+  .mdl2-FitPage::before {
+    content: "\EBB4"; }
+  
+  .mdl2-Flag::before, .mdl2-EndPoint::before, .mdl2-FlagLegacy::before {
+    content: "\EBB5"; }
+  
+  .mdl2-Flashlight::before {
+    content: "\EBB6"; }
+  
+  .mdl2-FlickDown::before {
+    content: "\EBB7"; }
+  
+  .mdl2-FlickLeft::before {
+    content: "\EBB8"; }
+  
+  .mdl2-FlickRight::before {
+    content: "\EBB9"; }
+  
+  .mdl2-FlickUp::before {
+    content: "\EBBA"; }
+  
+  .mdl2-Folder::before {
+    content: "\EBBB"; }
+  
+  .mdl2-FolderFill::before, .mdl2-FolderLegacy::before {
+    content: "\EBBC"; }
+  
+  .mdl2-FolderHorizontal::before {
+    content: "\EBBD"; }
+  
+  .mdl2-FolderOpen::before {
+    content: "\EBBE"; }
+  
+  .mdl2-Font::before, .mdl2-FontLegacy::before {
+    content: "\EBBF"; }
+  
+  .mdl2-FontColor::before, .mdl2-FontColorLegacy::before {
+    content: "\EBC0"; }
+  
+  .mdl2-FontColorKorean::before, .mdl2-FontColorKoreanLegacy::before {
+    content: "\EBC1"; }
+  
+  .mdl2-FontColorKoreanLegacy::before, .mdl2-FontColorKorean::before, .mdl2-FontColorKoreanLegacy::before {
+    content: "\EBC2"; }
+  
+  .mdl2-FontDecrease::before, .mdl2-FontDecreaseLegacy::before {
+    content: "\EBC3"; }
+  
+  .mdl2-FontIncrease::before, .mdl2-FontIncreaseLegacy::before {
+    content: "\EBC4"; }
+  
+  .mdl2-FontSize::before, .mdl2-FontSizeLegacy::before {
+    content: "\EBC5"; }
+  
+  .mdl2-FontStyleKorean::before, .mdl2-FontStyleKoreanLegacy::before {
+    content: "\EBC6"; }
+  
+  .mdl2-FontStyleKoreanLegacy::before, .mdl2-FontStyleKorean::before, .mdl2-FontStyleKoreanLegacy::before {
+    content: "\EBC7"; }
+  
+  .mdl2-Forward::before, .mdl2-ArrowHTMLLegacyMirrored::before, .mdl2-BackBttnMirroredArrow20Legacy::before, .mdl2-BackBttnMirroredArrow42Legacy::before, .mdl2-ForwardLegacy::before {
+    content: "\EBC8"; }
+  
+  .mdl2-ForwardMirrored::before {
+    content: "\EBC9"; }
+  
+  .mdl2-ForwardSm::before {
+    content: "\EBCA"; }
+  
+  .mdl2-FourBars::before, .mdl2-FourBarsLegacy::before {
+    content: "\EBCB"; }
+  
+  .mdl2-FreeFormClipping::before {
+    content: "\EBCC"; }
+  
+  .mdl2-Frigid::before {
+    content: "\EBCD"; }
+  
+  .mdl2-FullAlpha::before {
+    content: "\EBCE"; }
+  
+  .mdl2-FullCircleMask::before {
+    content: "\EBCF"; }
+  
+  .mdl2-FullHiragana::before {
+    content: "\EBD0"; }
+  
+  .mdl2-FullKatakana::before {
+    content: "\EBD1"; }
+  
+  .mdl2-FullScreen::before, .mdl2-FullScreenLegacy::before {
+    content: "\EBD2"; }
+  
+  .mdl2-FuzzyReading::before {
+    content: "\EBD3"; }
+  
+  .mdl2-GIF::before {
+    content: "\EBD4"; }
+  
+  .mdl2-Game::before {
+    content: "\EBD5"; }
+  
+  .mdl2-GameConsole::before {
+    content: "\EBD6"; }
+  
+  .mdl2-GiftboxOpen::before {
+    content: "\EBD7"; }
+  
+  .mdl2-GlobalNavigationButton::before {
+    content: "\EBD8"; }
+  
+  .mdl2-Globe::before, .mdl2-GlobeLegacy::before {
+    content: "\EBD9"; }
+  
+  .mdl2-Go::before, .mdl2-GoLegacy::before {
+    content: "\EBDA"; }
+  
+  .mdl2-GoMirrored::before, .mdl2-GoLegacyMirrored::before {
+    content: "\EBDB"; }
+  
+  .mdl2-GoToStart::before, .mdl2-GoToStartLegacy::before {
+    content: "\EBDC"; }
+  
+  .mdl2-GotoToday::before, .mdl2-GotoTodayLegacy::before {
+    content: "\EBDD"; }
+  
+  .mdl2-GridView::before {
+    content: "\EBDE"; }
+  
+  .mdl2-GripperBarHorizontal::before {
+    content: "\EBDF"; }
+  
+  .mdl2-GripperBarVertical::before {
+    content: "\EBE0"; }
+  
+  .mdl2-GripperResize::before {
+    content: "\EBE1"; }
+  
+  .mdl2-GripperResizeMirrored::before {
+    content: "\EBE2"; }
+  
+  .mdl2-GripperTool::before {
+    content: "\EBE3"; }
+  
+  .mdl2-Groceries::before {
+    content: "\EBE4"; }
+  
+  .mdl2-Group::before {
+    content: "\EBE5"; }
+  
+  .mdl2-GroupList::before {
+    content: "\EBE6"; }
+  
+  .mdl2-GuestUser::before {
+    content: "\EBE7"; }
+  
+  .mdl2-HMD::before {
+    content: "\EBE8"; }
+  
+  .mdl2-HWPInsert::before {
+    content: "\EBE9"; }
+  
+  .mdl2-HWPJoin::before {
+    content: "\EBEA"; }
+  
+  .mdl2-HWPNewLine::before {
+    content: "\EBEB"; }
+  
+  .mdl2-HWPOverwrite::before {
+    content: "\EBEC"; }
+  
+  .mdl2-HWPScratchOut::before {
+    content: "\EBED"; }
+  
+  .mdl2-HWPSplit::before {
+    content: "\EBEE"; }
+  
+  .mdl2-HWPStrikeThrough::before {
+    content: "\EBEF"; }
+  
+  .mdl2-HalfAlpha::before {
+    content: "\EBF0"; }
+  
+  .mdl2-HalfDullSound::before {
+    content: "\EBF1"; }
+  
+  .mdl2-HalfKatakana::before {
+    content: "\EBF2"; }
+  
+  .mdl2-HalfStarLeft::before {
+    content: "\EBF3"; }
+  
+  .mdl2-HalfStarRight::before {
+    content: "\EBF4"; }
+  
+  .mdl2-Handwriting::before {
+    content: "\EBF5"; }
+  
+  .mdl2-HangUp::before, .mdl2-HangUpLegacy::before {
+    content: "\EBF6"; }
+  
+  .mdl2-HardDrive::before {
+    content: "\EBF7"; }
+  
+  .mdl2-HeadlessDevice::before {
+    content: "\EBF8"; }
+  
+  .mdl2-Headphone::before {
+    content: "\EBF9"; }
+  
+  .mdl2-Headphone0::before {
+    content: "\EBFA"; }
+  
+  .mdl2-Headphone1::before {
+    content: "\EBFB"; }
+  
+  .mdl2-Headphone2::before {
+    content: "\EBFC"; }
+  
+  .mdl2-Headphone3::before {
+    content: "\EBFD"; }
+  
+  .mdl2-Headset::before {
+    content: "\EBFE"; }
+  
+  .mdl2-Health::before {
+    content: "\EBFF"; }
+  
+  .mdl2-Heart::before, .mdl2-HeartLegacy::before {
+    content: "\EC00"; }
+  
+  .mdl2-HeartBroken::before {
+    content: "\EC01"; }
+  
+  .mdl2-HeartBrokenLegacy::before, .mdl2-HeartBrokenZeroWidthLegacy::before {
+    content: "\EC02"; }
+  
+  .mdl2-HeartFill::before, .mdl2-HeartFillLegacy::before, .mdl2-HeartFillZeroWidthLegacy::before {
+    content: "\EC03"; }
+  
+  .mdl2-Help::before, .mdl2-HelpLegacy::before {
+    content: "\EC04"; }
+  
+  .mdl2-HelpMirrored::before, .mdl2-HelpLegacyMirrored::before {
+    content: "\EC05"; }
+  
+  .mdl2-HideBcc::before, .mdl2-HideBccLegacy::before {
+    content: "\EC06"; }
+  
+  .mdl2-Highlight::before, .mdl2-HighlightLegacy::before {
+    content: "\EC07"; }
+  
+  .mdl2-HighlightFill::before {
+    content: "\EC08"; }
+  
+  .mdl2-HighlightFill2::before {
+    content: "\EC09"; }
+  
+  .mdl2-History::before {
+    content: "\EC0A"; }
+  
+  .mdl2-HolePunchLandscapeBottom::before {
+    content: "\EC0B"; }
+  
+  .mdl2-HolePunchLandscapeLeft::before {
+    content: "\EC0C"; }
+  
+  .mdl2-HolePunchLandscapeRight::before {
+    content: "\EC0D"; }
+  
+  .mdl2-HolePunchLandscapeTop::before {
+    content: "\EC0E"; }
+  
+  .mdl2-HolePunchOff::before {
+    content: "\EC0F"; }
+  
+  .mdl2-HolePunchPortraitBottom::before {
+    content: "\EC10"; }
+  
+  .mdl2-HolePunchPortraitLeft::before {
+    content: "\EC11"; }
+  
+  .mdl2-HolePunchPortraitRight::before {
+    content: "\EC12"; }
+  
+  .mdl2-HolePunchPortraitTop::before {
+    content: "\EC13"; }
+  
+  .mdl2-HoloLensSelected::before {
+    content: "\EC14"; }
+  
+  .mdl2-Home::before, .mdl2-HomeLegacy::before {
+    content: "\EC15"; }
+  
+  .mdl2-HomeGroup::before {
+    content: "\EC16"; }
+  
+  .mdl2-HomeSolid::before {
+    content: "\EC17"; }
+  
+  .mdl2-HorizontalTabKey::before {
+    content: "\EC18"; }
+  
+  .mdl2-IBeam::before {
+    content: "\EC19"; }
+  
+  .mdl2-IBeamOutline::before {
+    content: "\EC1A"; }
+  
+  .mdl2-IOT::before {
+    content: "\EC1B"; }
+  
+  .mdl2-ImageExport::before {
+    content: "\EC1C"; }
+  
+  .mdl2-Import::before, .mdl2-ExportMirrored::before, .mdl2-ImportLegacy::before {
+    content: "\EC1D"; }
+  
+  .mdl2-ImportAll::before, .mdl2-ImportAllLegacy::before {
+    content: "\EC1E"; }
+  
+  .mdl2-ImportAllMirrored::before, .mdl2-ImportAllLegacyMirrored::before {
+    content: "\EC1F"; }
+  
+  .mdl2-Important::before, .mdl2-ImportantLegacy::before {
+    content: "\EC20"; }
+  
+  .mdl2-ImportantBadge12::before {
+    content: "\EC21"; }
+  
+  .mdl2-InPrivate::before {
+    content: "\EC22"; }
+  
+  .mdl2-IncidentTriangle::before {
+    content: "\EC23"; }
+  
+  .mdl2-IncreaseIndent::before, .mdl2-IncreaseIndentLegacy::before {
+    content: "\EC24"; }
+  
+  .mdl2-IncreaseIndentLegacy::before, .mdl2-IncreaseIndent::before, .mdl2-IncreaseIndentLegacy::before {
+    content: "\EC25"; }
+  
+  .mdl2-IncreaseIndentLegacyMirrored::before, .mdl2-IncreaseIndentMirrored::before, .mdl2-IncreaseIndentLegacyMirrored::before {
+    content: "\EC26"; }
+  
+  .mdl2-IncreaseIndentMirrored::before, .mdl2-IncreaseIndentLegacyMirrored::before {
+    content: "\EC27"; }
+  
+  .mdl2-Info::before {
+    content: "\EC28"; }
+  
+  .mdl2-Info2::before {
+    content: "\EC29"; }
+  
+  .mdl2-InfoSolid::before {
+    content: "\EC2A"; }
+  
+  .mdl2-InkingCaret::before {
+    content: "\EC2B"; }
+  
+  .mdl2-InkingColorFill::before {
+    content: "\EC2C"; }
+  
+  .mdl2-InkingColorOutline::before {
+    content: "\EC2D"; }
+  
+  .mdl2-InkingTool::before {
+    content: "\EC2E"; }
+  
+  .mdl2-InkingToolFill::before {
+    content: "\EC2F"; }
+  
+  .mdl2-InkingToolFill2::before {
+    content: "\EC30"; }
+  
+  .mdl2-Input::before {
+    content: "\EC31"; }
+  
+  .mdl2-InsiderHubApp::before {
+    content: "\EC32"; }
+  
+  .mdl2-InteractiveDashboard::before {
+    content: "\EC33"; }
+  
+  .mdl2-Italic::before, .mdl2-ItalicLegacy::before {
+    content: "\EC34"; }
+  
+  .mdl2-ItalicC::before, .mdl2-ItalicCLegacy::before {
+    content: "\EC35"; }
+  
+  .mdl2-ItalicCLegacy::before, .mdl2-ItalicC::before, .mdl2-ItalicCLegacy::before {
+    content: "\EC36"; }
+  
+  .mdl2-ItalicI::before, .mdl2-ItalicILegacy::before {
+    content: "\EC37"; }
+  
+  .mdl2-ItalicILegacy::before, .mdl2-ItalicI::before, .mdl2-ItalicILegacy::before {
+    content: "\EC38"; }
+  
+  .mdl2-ItalicK::before, .mdl2-ItalicKLegacy::before {
+    content: "\EC39"; }
+  
+  .mdl2-ItalicKLegacy::before, .mdl2-ItalicK::before, .mdl2-ItalicKLegacy::before {
+    content: "\EC3A"; }
+  
+  .mdl2-ItalicKorean::before, .mdl2-ItalicKoreanLegacy::before {
+    content: "\EC3B"; }
+  
+  .mdl2-ItalicKoreanLegacy::before, .mdl2-ItalicKorean::before, .mdl2-ItalicKoreanLegacy::before {
+    content: "\EC3C"; }
+  
+  .mdl2-ItalicRussian::before, .mdl2-ItalicRussianLegacy::before {
+    content: "\EC3D"; }
+  
+  .mdl2-ItalicRussianLegacy::before, .mdl2-ItalicRussian::before, .mdl2-ItalicRussianLegacy::before {
+    content: "\EC3E"; }
+  
+  .mdl2-Japanese::before {
+    content: "\EC3F"; }
+  
+  .mdl2-JpnRomanji::before {
+    content: "\EC40"; }
+  
+  .mdl2-JpnRomanjiLock::before {
+    content: "\EC41"; }
+  
+  .mdl2-JpnRomanjiShift::before {
+    content: "\EC42"; }
+  
+  .mdl2-JpnRomanjiShiftLock::before {
+    content: "\EC43"; }
+  
+  .mdl2-Key12On::before {
+    content: "\EC44"; }
+  
+  .mdl2-KeyBoardLegacy::before, .mdl2-KeyboardClassic::before, .mdl2-KeyBoardLegacy::before {
+    content: "\EC45"; }
+  
+  .mdl2-Keyboard12Key::before {
+    content: "\EC46"; }
+  
+  .mdl2-KeyboardBrightness::before {
+    content: "\EC47"; }
+  
+  .mdl2-KeyboardClassic::before, .mdl2-KeyBoardLegacy::before {
+    content: "\EC48"; }
+  
+  .mdl2-KeyboardDismiss::before {
+    content: "\EC49"; }
+  
+  .mdl2-KeyboardDock::before {
+    content: "\EC4A"; }
+  
+  .mdl2-KeyboardFull::before {
+    content: "\EC4B"; }
+  
+  .mdl2-KeyboardLeftAligned::before {
+    content: "\EC4C"; }
+  
+  .mdl2-KeyboardLeftDock::before {
+    content: "\EC4D"; }
+  
+  .mdl2-KeyboardLeftHanded::before {
+    content: "\EC4E"; }
+  
+  .mdl2-KeyboardLowerBrightness::before {
+    content: "\EC4F"; }
+  
+  .mdl2-KeyboardNarrow::before {
+    content: "\EC50"; }
+  
+  .mdl2-KeyboardOneHanded::before {
+    content: "\EC51"; }
+  
+  .mdl2-KeyboardRightAligned::before {
+    content: "\EC52"; }
+  
+  .mdl2-KeyboardRightDock::before {
+    content: "\EC53"; }
+  
+  .mdl2-KeyboardRightHanded::before {
+    content: "\EC54"; }
+  
+  .mdl2-KeyboardSettings::before {
+    content: "\EC55"; }
+  
+  .mdl2-KeyboardShortcut::before {
+    content: "\EC56"; }
+  
+  .mdl2-KeyboardSplit::before, .mdl2-KeyboardSplitLegacy::before {
+    content: "\EC57"; }
+  
+  .mdl2-KeyboardStandard::before, .mdl2-KeyboardStandardLegacy::before {
+    content: "\EC58"; }
+  
+  .mdl2-KeyboardUndock::before {
+    content: "\EC59"; }
+  
+  .mdl2-KnowledgeArticle::before {
+    content: "\EC5A"; }
+  
+  .mdl2-Korean::before {
+    content: "\EC5B"; }
+  
+  .mdl2-LEDLight::before {
+    content: "\EC5C"; }
+  
+  .mdl2-Label::before {
+    content: "\EC5D"; }
+  
+  .mdl2-LandscapeOrientation::before {
+    content: "\EC5E"; }
+  
+  .mdl2-LandscapeOrientationMirrored::before {
+    content: "\EC5F"; }
+  
+  .mdl2-LangJPN::before {
+    content: "\EC60"; }
+  
+  .mdl2-LanguageChs::before {
+    content: "\EC61"; }
+  
+  .mdl2-LanguageCht::before {
+    content: "\EC62"; }
+  
+  .mdl2-LanguageJpn::before {
+    content: "\EC63"; }
+  
+  .mdl2-LanguageKor::before {
+    content: "\EC64"; }
+  
+  .mdl2-LaptopSecure::before {
+    content: "\EC65"; }
+  
+  .mdl2-LaptopSelected::before {
+    content: "\EC66"; }
+  
+  .mdl2-LargeErase::before {
+    content: "\EC67"; }
+  
+  .mdl2-Layout::before, .mdl2-LayoutLegacy::before {
+    content: "\EC68"; }
+  
+  .mdl2-LayoutLegacy::before, .mdl2-Layout::before, .mdl2-LayoutLegacy::before {
+    content: "\EC69"; }
+  
+  .mdl2-Leaf::before {
+    content: "\EC6A"; }
+  
+  .mdl2-LeaveChat::before, .mdl2-LeaveChatLegacy::before {
+    content: "\EC6B"; }
+  
+  .mdl2-LeaveChatMirrored::before {
+    content: "\EC6C"; }
+  
+  .mdl2-LeftArrowKeyTime0::before {
+    content: "\EC6D"; }
+  
+  .mdl2-LeftDoubleQuote::before {
+    content: "\EC6E"; }
+  
+  .mdl2-LeftQuote::before {
+    content: "\EC6F"; }
+  
+  .mdl2-LeftStick::before {
+    content: "\EC70"; }
+  
+  .mdl2-Lexicon::before {
+    content: "\EC71"; }
+  
+  .mdl2-Library::before, .mdl2-LibraryLegacy::before {
+    content: "\EC72"; }
+  
+  .mdl2-Light::before {
+    content: "\EC73"; }
+  
+  .mdl2-Lightbulb::before, .mdl2-ToolTip::before, .mdl2-Lightbulb::before {
+    content: "\EC74"; }
+  
+  .mdl2-LightningBolt::before {
+    content: "\EC75"; }
+  
+  .mdl2-Like::before, .mdl2-LikeInlineLegacy::before, .mdl2-LikeLegacy::before {
+    content: "\EC76"; }
+  
+  .mdl2-LikeDislike::before, .mdl2-LikeDislikeLegacy::before {
+    content: "\EC77"; }
+  
+  .mdl2-LineDisplay::before {
+    content: "\EC78"; }
+  
+  .mdl2-Link::before, .mdl2-LinkLegacy::before {
+    content: "\EC79"; }
+  
+  .mdl2-List::before {
+    content: "\EC7A"; }
+  
+  .mdl2-ListMirrored::before {
+    content: "\EC7B"; }
+  
+  .mdl2-Location::before, .mdl2-LocationLegacy::before {
+    content: "\EC7C"; }
+  
+  .mdl2-Lock::before, .mdl2-LockLegacy::before {
+    content: "\EC7D"; }
+  
+  .mdl2-LockFeedback::before {
+    content: "\EC7E"; }
+  
+  .mdl2-LockScreenGlance::before {
+    content: "\EC7F"; }
+  
+  .mdl2-LockscreenDesktop::before {
+    content: "\EC80"; }
+  
+  .mdl2-LowerBrightness::before {
+    content: "\EC81"; }
+  
+  .mdl2-MagStripeReader::before {
+    content: "\EC82"; }
+  
+  .mdl2-Mail::before, .mdl2-MailLegacy::before {
+    content: "\EC83"; }
+  
+  .mdl2-MailBadge12::before {
+    content: "\EC84"; }
+  
+  .mdl2-MailFill::before, .mdl2-MailFillLegacy::before, .mdl2-MailMessageLegacy::before {
+    content: "\EC85"; }
+  
+  .mdl2-MailForward::before, .mdl2-MailForwardLegacy::before {
+    content: "\EC86"; }
+  
+  .mdl2-MailForwardMirrored::before, .mdl2-MailForwardLegacyMirrored::before {
+    content: "\EC87"; }
+  
+  .mdl2-MailReply::before, .mdl2-MailReplyLegacy::before {
+    content: "\EC88"; }
+  
+  .mdl2-MailReplyAll::before, .mdl2-MailReplyAllLegacy::before {
+    content: "\EC89"; }
+  
+  .mdl2-MailReplyAllMirrored::before, .mdl2-MailReplyAllLegacyMirrored::before {
+    content: "\EC8A"; }
+  
+  .mdl2-MailReplyMirrored::before, .mdl2-MailReplyLegacyMirrored::before {
+    content: "\EC8B"; }
+  
+  .mdl2-Manage::before, .mdl2-ManageLegacy::before {
+    content: "\EC8C"; }
+  
+  .mdl2-MapCompassBottom::before {
+    content: "\EC8D"; }
+  
+  .mdl2-MapCompassTop::before {
+    content: "\EC8E"; }
+  
+  .mdl2-MapDirections::before {
+    content: "\EC8F"; }
+  
+  .mdl2-MapDrive::before, .mdl2-MapDriveLegacy::before {
+    content: "\EC90"; }
+  
+  .mdl2-MapLayers::before {
+    content: "\EC91"; }
+  
+  .mdl2-MapPin::before, .mdl2-MapLegacy::before {
+    content: "\EC92"; }
+  
+  .mdl2-MapPin2::before, .mdl2-MapPinLegacy::before {
+    content: "\EC93"; }
+  
+  .mdl2-MapPinLegacy::before, .mdl2-MapPin2::before, .mdl2-MapPinLegacy::before {
+    content: "\EC94"; }
+  
+  .mdl2-Marker::before {
+    content: "\EC95"; }
+  
+  .mdl2-Marquee::before {
+    content: "\EC96"; }
+  
+  .mdl2-Media::before {
+    content: "\EC97"; }
+  
+  .mdl2-MediaStorageTower::before {
+    content: "\EC98"; }
+  
+  .mdl2-Megaphone::before {
+    content: "\EC99"; }
+  
+  .mdl2-Memo::before, .mdl2-MemoLegacy::before {
+    content: "\EC9A"; }
+  
+  .mdl2-Message::before, .mdl2-CommentInlineLegacy::before, .mdl2-MessageLegacy::before {
+    content: "\EC9B"; }
+  
+  .mdl2-MicClipping::before {
+    content: "\EC9C"; }
+  
+  .mdl2-MicError::before {
+    content: "\EC9D"; }
+  
+  .mdl2-MicOff::before {
+    content: "\EC9E"; }
+  
+  .mdl2-MicOn::before {
+    content: "\EC9F"; }
+  
+  .mdl2-MicSleep::before {
+    content: "\ECA0"; }
+  
+  .mdl2-Microphone::before, .mdl2-MicrophoneLegacy::before {
+    content: "\ECA1"; }
+  
+  .mdl2-MicrophoneListening::before {
+    content: "\ECA2"; }
+  
+  .mdl2-MiracastLogoSmall::before {
+    content: "\ECA3"; }
+  
+  .mdl2-MixVolumes::before {
+    content: "\ECA4"; }
+  
+  .mdl2-MobActionCenter::before {
+    content: "\ECA5"; }
+  
+  .mdl2-MobAirplane::before {
+    content: "\ECA6"; }
+  
+  .mdl2-MobBattery0::before {
+    content: "\ECA7"; }
+  
+  .mdl2-MobBattery1::before {
+    content: "\ECA8"; }
+  
+  .mdl2-MobBattery10::before {
+    content: "\ECA9"; }
+  
+  .mdl2-MobBattery2::before {
+    content: "\ECAA"; }
+  
+  .mdl2-MobBattery3::before {
+    content: "\ECAB"; }
+  
+  .mdl2-MobBattery4::before {
+    content: "\ECAC"; }
+  
+  .mdl2-MobBattery5::before {
+    content: "\ECAD"; }
+  
+  .mdl2-MobBattery6::before {
+    content: "\ECAE"; }
+  
+  .mdl2-MobBattery7::before {
+    content: "\ECAF"; }
+  
+  .mdl2-MobBattery8::before {
+    content: "\ECB0"; }
+  
+  .mdl2-MobBattery9::before {
+    content: "\ECB1"; }
+  
+  .mdl2-MobBatteryCharging0::before {
+    content: "\ECB2"; }
+  
+  .mdl2-MobBatteryCharging1::before {
+    content: "\ECB3"; }
+  
+  .mdl2-MobBatteryCharging10::before {
+    content: "\ECB4"; }
+  
+  .mdl2-MobBatteryCharging2::before {
+    content: "\ECB5"; }
+  
+  .mdl2-MobBatteryCharging3::before {
+    content: "\ECB6"; }
+  
+  .mdl2-MobBatteryCharging4::before {
+    content: "\ECB7"; }
+  
+  .mdl2-MobBatteryCharging5::before {
+    content: "\ECB8"; }
+  
+  .mdl2-MobBatteryCharging6::before {
+    content: "\ECB9"; }
+  
+  .mdl2-MobBatteryCharging7::before {
+    content: "\ECBA"; }
+  
+  .mdl2-MobBatteryCharging8::before {
+    content: "\ECBB"; }
+  
+  .mdl2-MobBatteryCharging9::before {
+    content: "\ECBC"; }
+  
+  .mdl2-MobBatterySaver0::before {
+    content: "\ECBD"; }
+  
+  .mdl2-MobBatterySaver1::before {
+    content: "\ECBE"; }
+  
+  .mdl2-MobBatterySaver10::before {
+    content: "\ECBF"; }
+  
+  .mdl2-MobBatterySaver2::before {
+    content: "\ECC0"; }
+  
+  .mdl2-MobBatterySaver3::before {
+    content: "\ECC1"; }
+  
+  .mdl2-MobBatterySaver4::before {
+    content: "\ECC2"; }
+  
+  .mdl2-MobBatterySaver5::before {
+    content: "\ECC3"; }
+  
+  .mdl2-MobBatterySaver6::before {
+    content: "\ECC4"; }
+  
+  .mdl2-MobBatterySaver7::before {
+    content: "\ECC5"; }
+  
+  .mdl2-MobBatterySaver8::before {
+    content: "\ECC6"; }
+  
+  .mdl2-MobBatterySaver9::before {
+    content: "\ECC7"; }
+  
+  .mdl2-MobBatteryUnknown::before {
+    content: "\ECC8"; }
+  
+  .mdl2-MobBluetooth::before {
+    content: "\ECC9"; }
+  
+  .mdl2-MobCallForwarding::before {
+    content: "\ECCA"; }
+  
+  .mdl2-MobCallForwardingMirrored::before {
+    content: "\ECCB"; }
+  
+  .mdl2-MobDrivingMode::before {
+    content: "\ECCC"; }
+  
+  .mdl2-MobLocation::before {
+    content: "\ECCD"; }
+  
+  .mdl2-MobQuietHours::before {
+    content: "\ECCE"; }
+  
+  .mdl2-MobSIMError::before {
+    content: "\ECCF"; }
+  
+  .mdl2-MobSIMLock::before {
+    content: "\ECD0"; }
+  
+  .mdl2-MobSIMMissing::before {
+    content: "\ECD1"; }
+  
+  .mdl2-MobSignal1::before {
+    content: "\ECD2"; }
+  
+  .mdl2-MobSignal2::before {
+    content: "\ECD3"; }
+  
+  .mdl2-MobSignal3::before {
+    content: "\ECD4"; }
+  
+  .mdl2-MobSignal4::before {
+    content: "\ECD5"; }
+  
+  .mdl2-MobSignal5::before {
+    content: "\ECD6"; }
+  
+  .mdl2-MobWifi1::before {
+    content: "\ECD7"; }
+  
+  .mdl2-MobWifi2::before {
+    content: "\ECD8"; }
+  
+  .mdl2-MobWifi3::before {
+    content: "\ECD9"; }
+  
+  .mdl2-MobWifi4::before {
+    content: "\ECDA"; }
+  
+  .mdl2-MobWifiHotspot::before {
+    content: "\ECDB"; }
+  
+  .mdl2-MobWifiWarning1::before {
+    content: "\ECDC"; }
+  
+  .mdl2-MobWifiWarning2::before {
+    content: "\ECDD"; }
+  
+  .mdl2-MobWifiWarning3::before {
+    content: "\ECDE"; }
+  
+  .mdl2-MobWifiWarning4::before {
+    content: "\ECDF"; }
+  
+  .mdl2-MobeSIM::before {
+    content: "\ECE0"; }
+  
+  .mdl2-MobeSIMBusy::before {
+    content: "\ECE1"; }
+  
+  .mdl2-MobeSIMLocked::before {
+    content: "\ECE2"; }
+  
+  .mdl2-MobeSIMNoProfile::before {
+    content: "\ECE3"; }
+  
+  .mdl2-MobileLocked::before {
+    content: "\ECE4"; }
+  
+  .mdl2-MobileSelected::before {
+    content: "\ECE5"; }
+  
+  .mdl2-MobileTablet::before {
+    content: "\ECE6"; }
+  
+  .mdl2-More::before, .mdl2-MoreLegacy::before {
+    content: "\ECE7"; }
+  
+  .mdl2-Mouse::before {
+    content: "\ECE8"; }
+  
+  .mdl2-MoveToFolder::before, .mdl2-MoveToFolderLegacy::before {
+    content: "\ECE9"; }
+  
+  .mdl2-Movies::before {
+    content: "\ECEA"; }
+  
+  .mdl2-MultiSelect::before, .mdl2-MultiSelectLegacy::before {
+    content: "\ECEB"; }
+  
+  .mdl2-MultiSelectMirrored::before, .mdl2-MultiSelectLegacyMirrored::before {
+    content: "\ECEC"; }
+  
+  .mdl2-MultimediaDMP::before {
+    content: "\ECED"; }
+  
+  .mdl2-MultimediaDMS::before {
+    content: "\ECEE"; }
+  
+  .mdl2-MultimediaDVR::before {
+    content: "\ECEF"; }
+  
+  .mdl2-MultimediaPMP::before {
+    content: "\ECF0"; }
+  
+  .mdl2-Multitask::before {
+    content: "\ECF1"; }
+  
+  .mdl2-Multitask16::before {
+    content: "\ECF2"; }
+  
+  .mdl2-MultitaskExpanded::before {
+    content: "\ECF3"; }
+  
+  .mdl2-MusicAlbum::before {
+    content: "\ECF4"; }
+  
+  .mdl2-MusicInfo::before, .mdl2-MusicInfoLegacy::before {
+    content: "\ECF5"; }
+  
+  .mdl2-MusicNote::before {
+    content: "\ECF6"; }
+  
+  .mdl2-MusicSharing::before {
+    content: "\ECF7"; }
+  
+  .mdl2-MusicSharingOff::before {
+    content: "\ECF8"; }
+  
+  .mdl2-Mute::before, .mdl2-MuteLegacy::before {
+    content: "\ECF9"; }
+  
+  .mdl2-MyNetwork::before {
+    content: "\ECFA"; }
+  
+  .mdl2-NUIFPContinueSlideAction::before {
+    content: "\ECFB"; }
+  
+  .mdl2-NUIFPContinueSlideHand::before {
+    content: "\ECFC"; }
+  
+  .mdl2-NUIFPPressAction::before {
+    content: "\ECFD"; }
+  
+  .mdl2-NUIFPPressHand::before {
+    content: "\ECFE"; }
+  
+  .mdl2-NUIFPPressRepeatAction::before {
+    content: "\ECFF"; }
+  
+  .mdl2-NUIFPRollLeftAction::before {
+    content: "\ED00"; }
+  
+  .mdl2-NUIFPRollLeftHand::before {
+    content: "\ED01"; }
+  
+  .mdl2-NUIFPRollRightHand::before {
+    content: "\ED02"; }
+  
+  .mdl2-NUIFPRollRightHandAction::before {
+    content: "\ED03"; }
+  
+  .mdl2-NUIFPStartSlideAction::before {
+    content: "\ED04"; }
+  
+  .mdl2-NUIFPStartSlideHand::before, .mdl2-NUIFPPressRepeatHand::before {
+    content: "\ED05"; }
+  
+  .mdl2-NUIFace::before {
+    content: "\ED06"; }
+  
+  .mdl2-NUIIris::before {
+    content: "\ED07"; }
+  
+  .mdl2-Narrator::before {
+    content: "\ED08"; }
+  
+  .mdl2-NarratorForward::before {
+    content: "\ED09"; }
+  
+  .mdl2-NarratorForwardMirrored::before {
+    content: "\ED0A"; }
+  
+  .mdl2-NearbySharing::before {
+    content: "\ED0B"; }
+  
+  .mdl2-Network::before {
+    content: "\ED0C"; }
+  
+  .mdl2-NetworkAdapter::before {
+    content: "\ED0D"; }
+  
+  .mdl2-NetworkConnected::before {
+    content: "\ED0E"; }
+  
+  .mdl2-NetworkConnectedCheckmark::before {
+    content: "\ED0F"; }
+  
+  .mdl2-NetworkOffline::before {
+    content: "\ED10"; }
+  
+  .mdl2-NetworkPrinter::before {
+    content: "\ED11"; }
+  
+  .mdl2-NetworkSharing::before {
+    content: "\ED12"; }
+  
+  .mdl2-NetworkTower::before {
+    content: "\ED13"; }
+  
+  .mdl2-NewFolder::before, .mdl2-NewFolderLegacy::before {
+    content: "\ED14"; }
+  
+  .mdl2-NewWindow::before, .mdl2-NewWindowLegacy::before {
+    content: "\ED15"; }
+  
+  .mdl2-Next::before, .mdl2-NextLegacy::before {
+    content: "\ED16"; }
+  
+  .mdl2-NoiseCancelation::before {
+    content: "\ED17"; }
+  
+  .mdl2-NoiseCancelationOff::before {
+    content: "\ED18"; }
+  
+  .mdl2-OEM::before {
+    content: "\ED19"; }
+  
+  .mdl2-OneBar::before, .mdl2-OneBarLegacy::before {
+    content: "\ED1A"; }
+  
+  .mdl2-OpenFile::before, .mdl2-OpenFileLegacy::before {
+    content: "\ED1B"; }
+  
+  .mdl2-OpenFolderHorizontal::before {
+    content: "\ED1C"; }
+  
+  .mdl2-OpenInNewWindow::before, .mdl2-OpenInNewWindowLegacy::before {
+    content: "\ED1D"; }
+  
+  .mdl2-OpenLocal::before, .mdl2-OpenLocalLegacy::before {
+    content: "\ED1E"; }
+  
+  .mdl2-OpenPane::before, .mdl2-OpenPaneLegacy::before {
+    content: "\ED1F"; }
+  
+  .mdl2-OpenPaneMirrored::before, .mdl2-OpenPaneLegacyMirrored::before {
+    content: "\ED20"; }
+  
+  .mdl2-OpenWith::before, .mdl2-OpenWithLegacy::before {
+    content: "\ED21"; }
+  
+  .mdl2-OpenWithMirrored::before, .mdl2-OpenWithLegacyMirrored::before {
+    content: "\ED22"; }
+  
+  .mdl2-Orientation::before, .mdl2-OrientationLegacy::before {
+    content: "\ED23"; }
+  
+  .mdl2-OtherUser::before, .mdl2-OtherUserLegacy::before {
+    content: "\ED24"; }
+  
+  .mdl2-OutlineHalfStarLeft::before {
+    content: "\ED25"; }
+  
+  .mdl2-OutlineHalfStarRight::before {
+    content: "\ED26"; }
+  
+  .mdl2-OutlineQuarterStarLeft::before {
+    content: "\ED27"; }
+  
+  .mdl2-OutlineQuarterStarRight::before {
+    content: "\ED28"; }
+  
+  .mdl2-OutlineStarLeftHalf::before {
+    content: "\ED29"; }
+  
+  .mdl2-OutlineStarRightHalf::before {
+    content: "\ED2A"; }
+  
+  .mdl2-OutlineThreeQuarterStarLeft::before {
+    content: "\ED2B"; }
+  
+  .mdl2-OutlineThreeQuarterStarRight::before {
+    content: "\ED2C"; }
+  
+  .mdl2-PC1::before, .mdl2-PC1Legacy::before {
+    content: "\ED2D"; }
+  
+  .mdl2-PINPad::before {
+    content: "\ED2E"; }
+  
+  .mdl2-PLAP::before {
+    content: "\ED2F"; }
+  
+  .mdl2-PPSFourLandscape::before {
+    content: "\ED30"; }
+  
+  .mdl2-PPSFourPortrait::before {
+    content: "\ED31"; }
+  
+  .mdl2-PPSOneLandscape::before {
+    content: "\ED32"; }
+  
+  .mdl2-PPSOnePortrait::before {
+    content: "\ED33"; }
+  
+  .mdl2-PPSTwoLandscape::before {
+    content: "\ED34"; }
+  
+  .mdl2-PPSTwoPortrait::before {
+    content: "\ED35"; }
+  
+  .mdl2-Package::before {
+    content: "\ED36"; }
+  
+  .mdl2-Page::before, .mdl2-PageLegacy::before {
+    content: "\ED37"; }
+  
+  .mdl2-PageLeft::before {
+    content: "\ED38"; }
+  
+  .mdl2-PageMarginLandscapeModerate::before {
+    content: "\ED39"; }
+  
+  .mdl2-PageMarginLandscapeNarrow::before {
+    content: "\ED3A"; }
+  
+  .mdl2-PageMarginLandscapeNormal::before {
+    content: "\ED3B"; }
+  
+  .mdl2-PageMarginLandscapeWide::before {
+    content: "\ED3C"; }
+  
+  .mdl2-PageMarginPortraitModerate::before {
+    content: "\ED3D"; }
+  
+  .mdl2-PageMarginPortraitNarrow::before {
+    content: "\ED3E"; }
+  
+  .mdl2-PageMarginPortraitNormal::before {
+    content: "\ED3F"; }
+  
+  .mdl2-PageMarginPortraitWide::before {
+    content: "\ED40"; }
+  
+  .mdl2-PageMirrored::before {
+    content: "\ED41"; }
+  
+  .mdl2-PageRight::before {
+    content: "\ED42"; }
+  
+  .mdl2-PageSolid::before, .mdl2-PageFillLegacy::before {
+    content: "\ED43"; }
+  
+  .mdl2-PaginationDotOutline10::before {
+    content: "\ED44"; }
+  
+  .mdl2-PaginationDotSolid10::before {
+    content: "\ED45"; }
+  
+  .mdl2-PanMode::before {
+    content: "\ED46"; }
+  
+  .mdl2-ParkingLocation::before {
+    content: "\ED47"; }
+  
+  .mdl2-ParkingLocationMirrored::before {
+    content: "\ED48"; }
+  
+  .mdl2-ParkingLocationSolid::before {
+    content: "\ED49"; }
+  
+  .mdl2-PartyLeader::before {
+    content: "\ED4A"; }
+  
+  .mdl2-PassiveAuthentication::before {
+    content: "\ED4B"; }
+  
+  .mdl2-PasswordKeyHide::before {
+    content: "\ED4C"; }
+  
+  .mdl2-PasswordKeyShow::before {
+    content: "\ED4D"; }
+  
+  .mdl2-Paste::before, .mdl2-PasteLegacy::before {
+    content: "\ED4E"; }
+  
+  .mdl2-Pause::before, .mdl2-PauseLegacy::before {
+    content: "\ED4F"; }
+  
+  .mdl2-PauseBadge12::before {
+    content: "\ED50"; }
+  
+  .mdl2-PaymentCard::before {
+    content: "\ED51"; }
+  
+  .mdl2-PenPalette::before {
+    content: "\ED52"; }
+  
+  .mdl2-PenPaletteMirrored::before {
+    content: "\ED53"; }
+  
+  .mdl2-PenTips::before {
+    content: "\ED54"; }
+  
+  .mdl2-PenTipsMirrored::before {
+    content: "\ED55"; }
+  
+  .mdl2-PenWorkspace::before {
+    content: "\ED56"; }
+  
+  .mdl2-PenWorkspaceMirrored::before {
+    content: "\ED57"; }
+  
+  .mdl2-Pencil::before {
+    content: "\ED58"; }
+  
+  .mdl2-PencilFill::before {
+    content: "\ED59"; }
+  
+  .mdl2-People::before, .mdl2-PeopleLegacy::before {
+    content: "\ED5A"; }
+  
+  .mdl2-PeriodKey::before {
+    content: "\ED5B"; }
+  
+  .mdl2-Permissions::before, .mdl2-PermissionsLegacy::before {
+    content: "\ED5C"; }
+  
+  .mdl2-PersonalFolder::before {
+    content: "\ED5D"; }
+  
+  .mdl2-Personalize::before {
+    content: "\ED5E"; }
+  
+  .mdl2-Phone::before, .mdl2-PhoneLegacy::before {
+    content: "\ED5F"; }
+  
+  .mdl2-PhoneBook::before, .mdl2-PhoneBookLegacy::before {
+    content: "\ED60"; }
+  
+  .mdl2-Photo::before {
+    content: "\ED61"; }
+  
+  .mdl2-Photo2::before {
+    content: "\ED62"; }
+  
+  .mdl2-Picture::before, .mdl2-PictureLegacy::before {
+    content: "\ED63"; }
+  
+  .mdl2-PieSingle::before {
+    content: "\ED64"; }
+  
+  .mdl2-Pin::before, .mdl2-PinLegacy::before {
+    content: "\ED65"; }
+  
+  .mdl2-PinFill::before {
+    content: "\ED66"; }
+  
+  .mdl2-Pinned::before {
+    content: "\ED67"; }
+  
+  .mdl2-PinnedFill::before {
+    content: "\ED68"; }
+  
+  .mdl2-PinyinIMELogo::before {
+    content: "\ED69"; }
+  
+  .mdl2-PlaceFolder::before, .mdl2-PlaceFolderLegacy::before {
+    content: "\ED6A"; }
+  
+  .mdl2-PlaceFolderLegacy::before, .mdl2-PlaceFolder::before, .mdl2-PlaceFolderLegacy::before {
+    content: "\ED6B"; }
+  
+  .mdl2-Play::before, .mdl2-PlayLegacy::before {
+    content: "\ED6C"; }
+  
+  .mdl2-Play36::before {
+    content: "\ED6D"; }
+  
+  .mdl2-PlayBadge12::before {
+    content: "\ED6E"; }
+  
+  .mdl2-PlayOn::before, .mdl2-PlayOnLegacy::before {
+    content: "\ED6F"; }
+  
+  .mdl2-PlayOnLegacy::before, .mdl2-PlayOn::before, .mdl2-PlayOnLegacy::before {
+    content: "\ED70"; }
+  
+  .mdl2-PlaySolid::before {
+    content: "\ED71"; }
+  
+  .mdl2-PlaybackRate1x::before {
+    content: "\ED72"; }
+  
+  .mdl2-PlaybackRateOther::before {
+    content: "\ED73"; }
+  
+  .mdl2-PlayerSettings::before {
+    content: "\ED74"; }
+  
+  .mdl2-PointErase::before {
+    content: "\ED75"; }
+  
+  .mdl2-PointEraseMirrored::before {
+    content: "\ED76"; }
+  
+  .mdl2-PointerHand::before {
+    content: "\ED77"; }
+  
+  .mdl2-PoliceCar::before {
+    content: "\ED78"; }
+  
+  .mdl2-PostUpdate::before, .mdl2-PostUpdateLegacy::before {
+    content: "\ED79"; }
+  
+  .mdl2-PowerButton::before {
+    content: "\ED7A"; }
+  
+  .mdl2-PresenceChicklet::before, .mdl2-CheckboxFill::before, .mdl2-CheckboxFillLegacy::before, .mdl2-CheckboxFillZeroWidthLegacy::before, .mdl2-PresenceChicklet::before, .mdl2-PresenceChickletLegacy::before, .mdl2-ResizeMouseLarge::before {
+    content: "\ED7B"; }
+  
+  .mdl2-PresenceChickletVideo::before, .mdl2-PresenceChickletVideoLegacy::before {
+    content: "\ED7C"; }
+  
+  .mdl2-Preview::before, .mdl2-PreviewLegacy::before {
+    content: "\ED7D"; }
+  
+  .mdl2-PreviewLink::before, .mdl2-PreviewLinkLegacy::before {
+    content: "\ED7E"; }
+  
+  .mdl2-Previous::before, .mdl2-PreviousLegacy::before {
+    content: "\ED7F"; }
+  
+  .mdl2-Print::before, .mdl2-PrintLegacy::before {
+    content: "\ED80"; }
+  
+  .mdl2-PrintAllPages::before {
+    content: "\ED81"; }
+  
+  .mdl2-PrintCustomRange::before {
+    content: "\ED82"; }
+  
+  .mdl2-PrintDefault::before {
+    content: "\ED83"; }
+  
+  .mdl2-Printer3D::before {
+    content: "\ED84"; }
+  
+  .mdl2-Printer3DLegacy::before {
+    content: "\ED85"; }
+  
+  .mdl2-PrintfaxPrinterFile::before {
+    content: "\ED86"; }
+  
+  .mdl2-Priority::before, .mdl2-PriorityLegacy::before {
+    content: "\ED87"; }
+  
+  .mdl2-Process::before {
+    content: "\ED88"; }
+  
+  .mdl2-Processing::before {
+    content: "\ED89"; }
+  
+  .mdl2-ProgressRingDots::before {
+    content: "\ED8A"; }
+  
+  .mdl2-Project::before {
+    content: "\ED8B"; }
+  
+  .mdl2-Projector::before {
+    content: "\ED8C"; }
+  
+  .mdl2-ProtectedDocument::before, .mdl2-ProtectedDocumentLegacy::before {
+    content: "\ED8D"; }
+  
+  .mdl2-Protractor::before {
+    content: "\ED8E"; }
+  
+  .mdl2-ProvisioningPackage::before {
+    content: "\ED8F"; }
+  
+  .mdl2-PuncKey::before {
+    content: "\ED90"; }
+  
+  .mdl2-PuncKey0::before {
+    content: "\ED91"; }
+  
+  .mdl2-PuncKey1::before {
+    content: "\ED92"; }
+  
+  .mdl2-PuncKey2::before {
+    content: "\ED93"; }
+  
+  .mdl2-PuncKey3::before {
+    content: "\ED94"; }
+  
+  .mdl2-PuncKey4::before {
+    content: "\ED95"; }
+  
+  .mdl2-PuncKey5::before {
+    content: "\ED96"; }
+  
+  .mdl2-PuncKey6::before {
+    content: "\ED97"; }
+  
+  .mdl2-PuncKey7::before {
+    content: "\ED98"; }
+  
+  .mdl2-PuncKey8::before {
+    content: "\ED99"; }
+  
+  .mdl2-PuncKey9::before {
+    content: "\ED9A"; }
+  
+  .mdl2-PuncKeyLeftBottom::before {
+    content: "\ED9B"; }
+  
+  .mdl2-PuncKeyRightBottom::before {
+    content: "\ED9C"; }
+  
+  .mdl2-Puzzle::before {
+    content: "\ED9D"; }
+  
+  .mdl2-QWERTYOff::before {
+    content: "\ED9E"; }
+  
+  .mdl2-QWERTYOn::before {
+    content: "\ED9F"; }
+  
+  .mdl2-QuarentinedItems::before {
+    content: "\EDA0"; }
+  
+  .mdl2-QuarentinedItemsMirrored::before {
+    content: "\EDA1"; }
+  
+  .mdl2-QuarterStarLeft::before {
+    content: "\EDA2"; }
+  
+  .mdl2-QuarterStarRight::before {
+    content: "\EDA3"; }
+  
+  .mdl2-QuickNote::before {
+    content: "\EDA4"; }
+  
+  .mdl2-QuietHours::before {
+    content: "\EDA5"; }
+  
+  .mdl2-QuietHoursBadge12::before {
+    content: "\EDA6"; }
+  
+  .mdl2-Radar::before {
+    content: "\EDA7"; }
+  
+  .mdl2-RadioBtnOff::before {
+    content: "\EDA8"; }
+  
+  .mdl2-RadioBtnOn::before {
+    content: "\EDA9"; }
+  
+  .mdl2-RadioBullet::before {
+    content: "\EDAA"; }
+  
+  .mdl2-RadioBullet2::before {
+    content: "\EDAB"; }
+  
+  .mdl2-Read::before, .mdl2-ReadLegacy::before {
+    content: "\EDAC"; }
+  
+  .mdl2-ReadingList::before {
+    content: "\EDAD"; }
+  
+  .mdl2-ReceiptPrinter::before {
+    content: "\EDAE"; }
+  
+  .mdl2-Recent::before, .mdl2-LengthLegacy::before {
+    content: "\EDAF"; }
+  
+  .mdl2-Record::before, .mdl2-RecordLegacy::before {
+    content: "\EDB0"; }
+  
+  .mdl2-RectangularClipping::before {
+    content: "\EDB1"; }
+  
+  .mdl2-RedEye::before {
+    content: "\EDB2"; }
+  
+  .mdl2-Redo::before, .mdl2-RedoLegacy::before {
+    content: "\EDB3"; }
+  
+  .mdl2-ReduceTile::before, .mdl2-ReduceTileLegacy::before {
+    content: "\EDB4"; }
+  
+  .mdl2-ReduceTileLegacy::before, .mdl2-ReduceTile::before, .mdl2-ReduceTileLegacy::before {
+    content: "\EDB5"; }
+  
+  .mdl2-ReduceTileLegacyMirrored::before, .mdl2-ReduceTileMirrored::before, .mdl2-ReduceTileLegacyMirrored::before {
+    content: "\EDB6"; }
+  
+  .mdl2-ReduceTileMirrored::before, .mdl2-ReduceTileLegacyMirrored::before {
+    content: "\EDB7"; }
+  
+  .mdl2-Refresh::before, .mdl2-RefreshLegacy::before, .mdl2-RepeatAll::before, .mdl2-RepeatAllLegacy::before {
+    content: "\EDB8"; }
+  
+  .mdl2-Relationship::before {
+    content: "\EDB9"; }
+  
+  .mdl2-RememberedDevice::before {
+    content: "\EDBA"; }
+  
+  .mdl2-Reminder::before {
+    content: "\EDBB"; }
+  
+  .mdl2-ReminderFill::before {
+    content: "\EDBC"; }
+  
+  .mdl2-Remote::before, .mdl2-RemoteLegacy::before {
+    content: "\EDBD"; }
+  
+  .mdl2-Remove::before, .mdl2-RemoveLegacy::before {
+    content: "\EDBE"; }
+  
+  .mdl2-RemoveFrom::before {
+    content: "\EDBF"; }
+  
+  .mdl2-Rename::before, .mdl2-RenameLegacy::before {
+    content: "\EDC0"; }
+  
+  .mdl2-Repair::before, .mdl2-RepairLegacy::before {
+    content: "\EDC1"; }
+  
+  .mdl2-RepeatOne::before, .mdl2-RepeatOneLegacy::before {
+    content: "\EDC2"; }
+  
+  .mdl2-Replay::before {
+    content: "\EDC3"; }
+  
+  .mdl2-Reply::before, .mdl2-ReplyLegacy::before {
+    content: "\EDC4"; }
+  
+  .mdl2-ReplyMirrored::before {
+    content: "\EDC5"; }
+  
+  .mdl2-ReportDocument::before {
+    content: "\EDC6"; }
+  
+  .mdl2-ReportHacked::before, .mdl2-ReportHackedLegacy::before {
+    content: "\EDC7"; }
+  
+  .mdl2-ResetDevice::before {
+    content: "\EDC8"; }
+  
+  .mdl2-ResetDrive::before {
+    content: "\EDC9"; }
+  
+  .mdl2-Reshare::before, .mdl2-ReshareLegacy::before {
+    content: "\EDCA"; }
+  
+  .mdl2-ResizeMouseMedium::before {
+    content: "\EDCB"; }
+  
+  .mdl2-ResizeMouseMediumMirrored::before {
+    content: "\EDCC"; }
+  
+  .mdl2-ResizeMouseSmall::before {
+    content: "\EDCD"; }
+  
+  .mdl2-ResizeMouseSmallMirrored::before {
+    content: "\EDCE"; }
+  
+  .mdl2-ResizeMouseTall::before {
+    content: "\EDCF"; }
+  
+  .mdl2-ResizeMouseTallMirrored::before {
+    content: "\EDD0"; }
+  
+  .mdl2-ResizeMouseWide::before {
+    content: "\EDD1"; }
+  
+  .mdl2-ResizeTouchLarger::before {
+    content: "\EDD2"; }
+  
+  .mdl2-ResizeTouchNarrower::before {
+    content: "\EDD3"; }
+  
+  .mdl2-ResizeTouchNarrowerMirrored::before {
+    content: "\EDD4"; }
+  
+  .mdl2-ResizeTouchShorter::before {
+    content: "\EDD5"; }
+  
+  .mdl2-ResizeTouchSmaller::before {
+    content: "\EDD6"; }
+  
+  .mdl2-Resolution::before, .mdl2-ResolutionLegacy::before {
+    content: "\EDD7"; }
+  
+  .mdl2-ResolutionLegacy::before, .mdl2-Resolution::before, .mdl2-ResolutionLegacy::before {
+    content: "\EDD8"; }
+  
+  .mdl2-ReturnKey::before {
+    content: "\EDD9"; }
+  
+  .mdl2-ReturnKeyLg::before {
+    content: "\EDDA"; }
+  
+  .mdl2-ReturnKeySm::before {
+    content: "\EDDB"; }
+  
+  .mdl2-ReturnToWindow::before, .mdl2-ReturnToWindowLegacy::before {
+    content: "\EDDC"; }
+  
+  .mdl2-RevToggleKey::before {
+    content: "\EDDD"; }
+  
+  .mdl2-Rewind::before {
+    content: "\EDDE"; }
+  
+  .mdl2-RightArrowKeyTime0::before {
+    content: "\EDDF"; }
+  
+  .mdl2-RightArrowKeyTime1::before {
+    content: "\EDE0"; }
+  
+  .mdl2-RightArrowKeyTime2::before {
+    content: "\EDE1"; }
+  
+  .mdl2-RightArrowKeyTime3::before {
+    content: "\EDE2"; }
+  
+  .mdl2-RightArrowKeyTime4::before {
+    content: "\EDE3"; }
+  
+  .mdl2-RightDoubleQuote::before {
+    content: "\EDE4"; }
+  
+  .mdl2-RightQuote::before {
+    content: "\EDE5"; }
+  
+  .mdl2-RightStick::before {
+    content: "\EDE6"; }
+  
+  .mdl2-Ringer::before {
+    content: "\EDE7"; }
+  
+  .mdl2-RingerBadge12::before {
+    content: "\EDE8"; }
+  
+  .mdl2-RingerSilent::before {
+    content: "\EDE9"; }
+  
+  .mdl2-RoamingDomestic::before {
+    content: "\EDEA"; }
+  
+  .mdl2-RoamingInternational::before {
+    content: "\EDEB"; }
+  
+  .mdl2-Robot::before {
+    content: "\EDEC"; }
+  
+  .mdl2-Rotate::before {
+    content: "\EDED"; }
+  
+  .mdl2-RotateCamera::before, .mdl2-RotateCameraLegacy::before {
+    content: "\EDEE"; }
+  
+  .mdl2-RotateLegacy::before {
+    content: "\EDEF"; }
+  
+  .mdl2-RotateMapLeft::before {
+    content: "\EDF0"; }
+  
+  .mdl2-RotateMapRight::before {
+    content: "\EDF1"; }
+  
+  .mdl2-RotationLock::before {
+    content: "\EDF2"; }
+  
+  .mdl2-Ruler::before {
+    content: "\EDF3"; }
+  
+  .mdl2-SDCard::before {
+    content: "\EDF4"; }
+  
+  .mdl2-SIMError::before {
+    content: "\EDF5"; }
+  
+  .mdl2-SIMLock::before {
+    content: "\EDF6"; }
+  
+  .mdl2-SIMMissing::before {
+    content: "\EDF7"; }
+  
+  .mdl2-SIPMove::before {
+    content: "\EDF8"; }
+  
+  .mdl2-SIPRedock::before {
+    content: "\EDF9"; }
+  
+  .mdl2-SIPUndock::before {
+    content: "\EDFA"; }
+  
+  .mdl2-Safe::before {
+    content: "\EDFB"; }
+  
+  .mdl2-Save::before, .mdl2-SaveLegacy::before {
+    content: "\EDFC"; }
+  
+  .mdl2-SaveAs::before, .mdl2-SaveAsLegacy::before {
+    content: "\EDFD"; }
+  
+  .mdl2-SaveCopy::before {
+    content: "\EDFE"; }
+  
+  .mdl2-SaveLocal::before, .mdl2-SaveLocalLegacy::before {
+    content: "\EDFF"; }
+  
+  .mdl2-Scan::before, .mdl2-ScanLegacy::before {
+    content: "\EE00"; }
+  
+  .mdl2-ScreenTime::before {
+    content: "\EE01"; }
+  
+  .mdl2-ScrollMode::before {
+    content: "\EE02"; }
+  
+  .mdl2-ScrollUpDown::before {
+    content: "\EE03"; }
+  
+  .mdl2-Search::before, .mdl2-FindLegacy::before, .mdl2-SearchboxLegacy::before {
+    content: "\EE04"; }
+  
+  .mdl2-SearchAndApps::before {
+    content: "\EE05"; }
+  
+  .mdl2-SelectAll::before, .mdl2-SelectAllLegacy::before {
+    content: "\EE06"; }
+  
+  .mdl2-SemanticZoom::before, .mdl2-SemanticZoomLegacy::before {
+    content: "\EE07"; }
+  
+  .mdl2-SemanticZoomLegacy::before, .mdl2-SemanticZoom::before, .mdl2-SemanticZoomLegacy::before {
+    content: "\EE08"; }
+  
+  .mdl2-Send::before, .mdl2-SendLegacy::before {
+    content: "\EE09"; }
+  
+  .mdl2-SendFill::before {
+    content: "\EE0A"; }
+  
+  .mdl2-SendFillMirrored::before {
+    content: "\EE0B"; }
+  
+  .mdl2-SendMirrored::before {
+    content: "\EE0C"; }
+  
+  .mdl2-Sensor::before {
+    content: "\EE0D"; }
+  
+  .mdl2-Set::before {
+    content: "\EE0E"; }
+  
+  .mdl2-SetSolid::before {
+    content: "\EE0F"; }
+  
+  .mdl2-SetTile::before, .mdl2-SetTileLegacy::before {
+    content: "\EE10"; }
+  
+  .mdl2-SetlockScreen::before, .mdl2-SetlockScreenLegacy::before {
+    content: "\EE11"; }
+  
+  .mdl2-Settings::before, .mdl2-SettingsLegacy::before {
+    content: "\EE12"; }
+  
+  .mdl2-SettingsBattery::before {
+    content: "\EE13"; }
+  
+  .mdl2-SettingsDisplaySound::before {
+    content: "\EE14"; }
+  
+  .mdl2-Share::before {
+    content: "\EE15"; }
+  
+  .mdl2-ShareBroadband::before {
+    content: "\EE16"; }
+  
+  .mdl2-Shield::before {
+    content: "\EE17"; }
+  
+  .mdl2-Shop::before, .mdl2-ShopLegacy::before {
+    content: "\EE18"; }
+  
+  .mdl2-ShoppingCart::before {
+    content: "\EE19"; }
+  
+  .mdl2-ShowAllFiles1::before, .mdl2-ShowAllFiles1Legacy::before {
+    content: "\EE1A"; }
+  
+  .mdl2-ShowAllFiles1Legacy::before, .mdl2-ShowAllFiles1::before, .mdl2-ShowAllFiles1Legacy::before {
+    content: "\EE1B"; }
+  
+  .mdl2-ShowAllFiles3::before, .mdl2-ShowAllFiles3Legacy::before {
+    content: "\EE1C"; }
+  
+  .mdl2-ShowAllFiles3Legacy::before, .mdl2-ShowAllFiles3::before, .mdl2-ShowAllFiles3Legacy::before {
+    content: "\EE1D"; }
+  
+  .mdl2-ShowBcc::before, .mdl2-ShowBccLegacy::before {
+    content: "\EE1E"; }
+  
+  .mdl2-ShowResults::before, .mdl2-ShowResultsLegacy::before {
+    content: "\EE1F"; }
+  
+  .mdl2-ShowResultsMirrored::before, .mdl2-ShowResultsLegacyMirrored::before {
+    content: "\EE20"; }
+  
+  .mdl2-Shuffle::before, .mdl2-ShuffleLegacy::before {
+    content: "\EE21"; }
+  
+  .mdl2-SignalBars1::before {
+    content: "\EE22"; }
+  
+  .mdl2-SignalBars2::before {
+    content: "\EE23"; }
+  
+  .mdl2-SignalBars3::before {
+    content: "\EE24"; }
+  
+  .mdl2-SignalBars4::before {
+    content: "\EE25"; }
+  
+  .mdl2-SignalBars5::before {
+    content: "\EE26"; }
+  
+  .mdl2-SignalError::before {
+    content: "\EE27"; }
+  
+  .mdl2-SignalNotConnected::before {
+    content: "\EE28"; }
+  
+  .mdl2-SignalRoaming::before {
+    content: "\EE29"; }
+  
+  .mdl2-SignatureCapture::before {
+    content: "\EE2A"; }
+  
+  .mdl2-Size::before {
+    content: "\EE2B"; }
+  
+  .mdl2-SkipBack10::before {
+    content: "\EE2C"; }
+  
+  .mdl2-SkipForward30::before {
+    content: "\EE2D"; }
+  
+  .mdl2-SliderThumb::before {
+    content: "\EE2E"; }
+  
+  .mdl2-Slideshow::before, .mdl2-SlideshowLegacy::before {
+    content: "\EE2F"; }
+  
+  .mdl2-SlowMotionOn::before {
+    content: "\EE30"; }
+  
+  .mdl2-SmallErase::before {
+    content: "\EE31"; }
+  
+  .mdl2-Smartcard::before {
+    content: "\EE32"; }
+  
+  .mdl2-SmartcardVirtual::before {
+    content: "\EE33"; }
+  
+  .mdl2-Sort::before, .mdl2-SortLegacy::before {
+    content: "\EE34"; }
+  
+  .mdl2-SpatialVolume0::before {
+    content: "\EE35"; }
+  
+  .mdl2-SpatialVolume1::before {
+    content: "\EE36"; }
+  
+  .mdl2-SpatialVolume2::before {
+    content: "\EE37"; }
+  
+  .mdl2-SpatialVolume3::before {
+    content: "\EE38"; }
+  
+  .mdl2-Speakers::before {
+    content: "\EE39"; }
+  
+  .mdl2-Speech::before {
+    content: "\EE3A"; }
+  
+  .mdl2-SpeedHigh::before {
+    content: "\EE3B"; }
+  
+  .mdl2-SpeedMedium::before {
+    content: "\EE3C"; }
+  
+  .mdl2-SpeedOff::before {
+    content: "\EE3D"; }
+  
+  .mdl2-StaplingLandscapeBookBinding::before {
+    content: "\EE3E"; }
+  
+  .mdl2-StaplingLandscapeBottomLeft::before {
+    content: "\EE3F"; }
+  
+  .mdl2-StaplingLandscapeBottomRight::before {
+    content: "\EE40"; }
+  
+  .mdl2-StaplingLandscapeTopLeft::before {
+    content: "\EE41"; }
+  
+  .mdl2-StaplingLandscapeTopRight::before {
+    content: "\EE42"; }
+  
+  .mdl2-StaplingLandscapeTwoBottom::before {
+    content: "\EE43"; }
+  
+  .mdl2-StaplingLandscapeTwoLeft::before {
+    content: "\EE44"; }
+  
+  .mdl2-StaplingLandscapeTwoRight::before {
+    content: "\EE45"; }
+  
+  .mdl2-StaplingLandscapeTwoTop::before {
+    content: "\EE46"; }
+  
+  .mdl2-StaplingOff::before {
+    content: "\EE47"; }
+  
+  .mdl2-StaplingPortraitBookBinding::before {
+    content: "\EE48"; }
+  
+  .mdl2-StaplingPortraitBottomLeft::before {
+    content: "\EE49"; }
+  
+  .mdl2-StaplingPortraitBottomRight::before {
+    content: "\EE4A"; }
+  
+  .mdl2-StaplingPortraitTopLeft::before {
+    content: "\EE4B"; }
+  
+  .mdl2-StaplingPortraitTopRight::before {
+    content: "\EE4C"; }
+  
+  .mdl2-StaplingPortraitTwoBottom::before {
+    content: "\EE4D"; }
+  
+  .mdl2-StaplingPortraitTwoLeft::before {
+    content: "\EE4E"; }
+  
+  .mdl2-StaplingPortraitTwoRight::before {
+    content: "\EE4F"; }
+  
+  .mdl2-StaplingPortraitTwoTop::before {
+    content: "\EE50"; }
+  
+  .mdl2-StartPoint::before {
+    content: "\EE51"; }
+  
+  .mdl2-StartPointSolid::before {
+    content: "\EE52"; }
+  
+  .mdl2-StatusCheckmark::before {
+    content: "\EE53"; }
+  
+  .mdl2-StatusCheckmark7::before {
+    content: "\EE54"; }
+  
+  .mdl2-StatusCheckmarkLeft::before {
+    content: "\EE55"; }
+  
+  .mdl2-StatusCircle::before {
+    content: "\EE56"; }
+  
+  .mdl2-StatusCircle7::before {
+    content: "\EE57"; }
+  
+  .mdl2-StatusCircleBlock::before {
+    content: "\EE58"; }
+  
+  .mdl2-StatusCircleBlock2::before {
+    content: "\EE59"; }
+  
+  .mdl2-StatusCircleCheckmark::before {
+    content: "\EE5A"; }
+  
+  .mdl2-StatusCircleErrorX::before {
+    content: "\EE5B"; }
+  
+  .mdl2-StatusCircleExclamation::before {
+    content: "\EE5C"; }
+  
+  .mdl2-StatusCircleInfo::before {
+    content: "\EE5D"; }
+  
+  .mdl2-StatusCircleInner::before {
+    content: "\EE5E"; }
+  
+  .mdl2-StatusCircleLeft::before {
+    content: "\EE5F"; }
+  
+  .mdl2-StatusCircleOuter::before {
+    content: "\EE60"; }
+  
+  .mdl2-StatusCircleQuestionMark::before {
+    content: "\EE61"; }
+  
+  .mdl2-StatusCircleRing::before {
+    content: "\EE62"; }
+  
+  .mdl2-StatusCircleSync::before {
+    content: "\EE63"; }
+  
+  .mdl2-StatusConnecting1::before {
+    content: "\EE64"; }
+  
+  .mdl2-StatusConnecting2::before {
+    content: "\EE65"; }
+  
+  .mdl2-StatusDataTransfer::before {
+    content: "\EE66"; }
+  
+  .mdl2-StatusDataTransferVPN::before {
+    content: "\EE67"; }
+  
+  .mdl2-StatusDualSIM1::before {
+    content: "\EE68"; }
+  
+  .mdl2-StatusDualSIM1VPN::before {
+    content: "\EE69"; }
+  
+  .mdl2-StatusDualSIM2::before {
+    content: "\EE6A"; }
+  
+  .mdl2-StatusDualSIM2VPN::before {
+    content: "\EE6B"; }
+  
+  .mdl2-StatusError::before {
+    content: "\EE6C"; }
+  
+  .mdl2-StatusErrorCircle7::before {
+    content: "\EE6D"; }
+  
+  .mdl2-StatusErrorFull::before {
+    content: "\EE6E"; }
+  
+  .mdl2-StatusErrorLeft::before {
+    content: "\EE6F"; }
+  
+  .mdl2-StatusExclamationCircle7::before {
+    content: "\EE70"; }
+  
+  .mdl2-StatusInfo::before {
+    content: "\EE71"; }
+  
+  .mdl2-StatusInfoLeft::before {
+    content: "\EE72"; }
+  
+  .mdl2-StatusPause7::before {
+    content: "\EE73"; }
+  
+  .mdl2-StatusSGLTE::before {
+    content: "\EE74"; }
+  
+  .mdl2-StatusSGLTECell::before {
+    content: "\EE75"; }
+  
+  .mdl2-StatusSGLTEDataVPN::before {
+    content: "\EE76"; }
+  
+  .mdl2-StatusTriangle::before {
+    content: "\EE77"; }
+  
+  .mdl2-StatusTriangleExclamation::before {
+    content: "\EE78"; }
+  
+  .mdl2-StatusTriangleInner::before {
+    content: "\EE79"; }
+  
+  .mdl2-StatusTriangleLeft::before {
+    content: "\EE7A"; }
+  
+  .mdl2-StatusTriangleOuter::before {
+    content: "\EE7B"; }
+  
+  .mdl2-StatusUnsecure::before {
+    content: "\EE7C"; }
+  
+  .mdl2-StatusVPN::before {
+    content: "\EE7D"; }
+  
+  .mdl2-StatusWarning::before {
+    content: "\EE7E"; }
+  
+  .mdl2-StatusWarningLeft::before {
+    content: "\EE7F"; }
+  
+  .mdl2-Sticker2::before {
+    content: "\EE80"; }
+  
+  .mdl2-StockDown::before {
+    content: "\EE81"; }
+  
+  .mdl2-StockUp::before {
+    content: "\EE82"; }
+  
+  .mdl2-Stop::before, .mdl2-StopLegacy::before {
+    content: "\EE83"; }
+  
+  .mdl2-StopPoint::before {
+    content: "\EE84"; }
+  
+  .mdl2-StopPointSolid::before {
+    content: "\EE85"; }
+  
+  .mdl2-StopSlideshow::before, .mdl2-StopSlideshowLegacy::before {
+    content: "\EE86"; }
+  
+  .mdl2-StopSlideshowLegacy::before, .mdl2-StopSlideshow::before, .mdl2-StopSlideshowLegacy::before {
+    content: "\EE87"; }
+  
+  .mdl2-Stopwatch::before {
+    content: "\EE88"; }
+  
+  .mdl2-StorageNetworkWireless::before {
+    content: "\EE89"; }
+  
+  .mdl2-StorageOptical::before {
+    content: "\EE8A"; }
+  
+  .mdl2-StorageTape::before {
+    content: "\EE8B"; }
+  
+  .mdl2-Streaming::before {
+    content: "\EE8C"; }
+  
+  .mdl2-StreamingEnterprise::before {
+    content: "\EE8D"; }
+  
+  .mdl2-Street::before, .mdl2-StreetLegacy::before {
+    content: "\EE8E"; }
+  
+  .mdl2-StreetsideSplitExpand::before {
+    content: "\EE8F"; }
+  
+  .mdl2-StreetsideSplitMinimize::before {
+    content: "\EE90"; }
+  
+  .mdl2-StrokeErase::before {
+    content: "\EE91"; }
+  
+  .mdl2-StrokeErase2::before {
+    content: "\EE92"; }
+  
+  .mdl2-StrokeEraseMirrored::before {
+    content: "\EE93"; }
+  
+  .mdl2-Subtitles::before {
+    content: "\EE94"; }
+  
+  .mdl2-SubtitlesAudio::before {
+    content: "\EE95"; }
+  
+  .mdl2-SurfaceHub::before {
+    content: "\EE96"; }
+  
+  .mdl2-SurfaceHubSelected::before {
+    content: "\EE97"; }
+  
+  .mdl2-Sustainable::before {
+    content: "\EE98"; }
+  
+  .mdl2-Swipe::before {
+    content: "\EE99"; }
+  
+  .mdl2-SwipeRevealArt::before {
+    content: "\EE9A"; }
+  
+  .mdl2-Switch::before, .mdl2-SwitchLegacy::before {
+    content: "\EE9B"; }
+  
+  .mdl2-SwitchApps::before, .mdl2-SwitchAppsLegacy::before {
+    content: "\EE9C"; }
+  
+  .mdl2-SwitchUser::before {
+    content: "\EE9D"; }
+  
+  .mdl2-Sync::before, .mdl2-SyncLegacy::before {
+    content: "\EE9E"; }
+  
+  .mdl2-SyncBadge12::before {
+    content: "\EE9F"; }
+  
+  .mdl2-SyncError::before {
+    content: "\EEA0"; }
+  
+  .mdl2-SyncFolder::before, .mdl2-SyncFolderLegacy::before {
+    content: "\EEA1"; }
+  
+  .mdl2-System::before {
+    content: "\EEA2"; }
+  
+  .mdl2-TVMonitor::before {
+    content: "\EEA3"; }
+  
+  .mdl2-TVMonitorSelected::before {
+    content: "\EEA4"; }
+  
+  .mdl2-Tablet::before {
+    content: "\EEA5"; }
+  
+  .mdl2-TabletMode::before {
+    content: "\EEA6"; }
+  
+  .mdl2-TabletSelected::before {
+    content: "\EEA7"; }
+  
+  .mdl2-Tag::before, .mdl2-TagLegacy::before {
+    content: "\EEA8"; }
+  
+  .mdl2-TapAndSend::before {
+    content: "\EEA9"; }
+  
+  .mdl2-TaskView::before {
+    content: "\EEAA"; }
+  
+  .mdl2-TaskViewExpanded::before {
+    content: "\EEAB"; }
+  
+  .mdl2-TaskViewSettings::before {
+    content: "\EEAC"; }
+  
+  .mdl2-TaskbarPhone::before {
+    content: "\EEAD"; }
+  
+  .mdl2-ThisPC::before {
+    content: "\EEAE"; }
+  
+  .mdl2-ThoughtBubble::before {
+    content: "\EEAF"; }
+  
+  .mdl2-ThreeBars::before, .mdl2-ThreeBarsLegacy::before {
+    content: "\EEB0"; }
+  
+  .mdl2-ThreeQuarterStarLeft::before {
+    content: "\EEB1"; }
+  
+  .mdl2-ThreeQuarterStarRight::before {
+    content: "\EEB2"; }
+  
+  .mdl2-Tiles::before {
+    content: "\EEB3"; }
+  
+  .mdl2-TiltDown::before {
+    content: "\EEB4"; }
+  
+  .mdl2-TiltUp::before {
+    content: "\EEB5"; }
+  
+  .mdl2-TimeLanguage::before {
+    content: "\EEB6"; }
+  
+  .mdl2-ToggleBorder::before {
+    content: "\EEB7"; }
+  
+  .mdl2-ToggleFilled::before {
+    content: "\EEB8"; }
+  
+  .mdl2-ToggleThumb::before {
+    content: "\EEB9"; }
+  
+  .mdl2-TollSolid::before {
+    content: "\EEBA"; }
+  
+  .mdl2-ToolTip::before, .mdl2-Lightbulb::before {
+    content: "\EEBB"; }
+  
+  .mdl2-Touch::before {
+    content: "\EEBC"; }
+  
+  .mdl2-TouchPointer::before, .mdl2-TouchPointerLegacy::before {
+    content: "\EEBD"; }
+  
+  .mdl2-Touchpad::before {
+    content: "\EEBE"; }
+  
+  .mdl2-Touchscreen::before {
+    content: "\EEBF"; }
+  
+  .mdl2-Trackers::before {
+    content: "\EEC0"; }
+  
+  .mdl2-TrackersMirrored::before {
+    content: "\EEC1"; }
+  
+  .mdl2-TrafficCongestionSolid::before {
+    content: "\EEC2"; }
+  
+  .mdl2-TrafficLight::before {
+    content: "\EEC3"; }
+  
+  .mdl2-Train::before {
+    content: "\EEC4"; }
+  
+  .mdl2-TrainSolid::before {
+    content: "\EEC5"; }
+  
+  .mdl2-TreeFolderFolder::before {
+    content: "\EEC6"; }
+  
+  .mdl2-TreeFolderFolderFill::before {
+    content: "\EEC7"; }
+  
+  .mdl2-TreeFolderFolderOpen::before {
+    content: "\EEC8"; }
+  
+  .mdl2-TreeFolderFolderOpenFill::before {
+    content: "\EEC9"; }
+  
+  .mdl2-TriggerLeft::before {
+    content: "\EECA"; }
+  
+  .mdl2-TriggerRight::before {
+    content: "\EECB"; }
+  
+  .mdl2-Trim::before, .mdl2-TrimLegacy::before {
+    content: "\EECC"; }
+  
+  .mdl2-TwoBars::before, .mdl2-TwoBarsLegacy::before {
+    content: "\EECD"; }
+  
+  .mdl2-TwoPage::before, .mdl2-TwoPageLegacy::before {
+    content: "\EECE"; }
+  
+  .mdl2-Type::before, .mdl2-TypeLegacy::before {
+    content: "\EECF"; }
+  
+  .mdl2-TypingIndicatorLegacy::before {
+    content: "\EED0"; }
+  
+  .mdl2-USB::before {
+    content: "\EED1"; }
+  
+  .mdl2-USBSafeConnect::before {
+    content: "\EED2"; }
+  
+  .mdl2-Underline::before, .mdl2-UnderlineLegacy::before {
+    content: "\EED3"; }
+  
+  .mdl2-UnderlineLKorean::before, .mdl2-UnderlineLKoreanLegacy::before {
+    content: "\EED4"; }
+  
+  .mdl2-UnderlineLKoreanLegacy::before, .mdl2-UnderlineLKorean::before, .mdl2-UnderlineLKoreanLegacy::before {
+    content: "\EED5"; }
+  
+  .mdl2-UnderlineRussian::before, .mdl2-UnderlineRussianLegacy::before {
+    content: "\EED6"; }
+  
+  .mdl2-UnderlineRussianLegacy::before, .mdl2-UnderlineRussian::before, .mdl2-UnderlineRussianLegacy::before {
+    content: "\EED7"; }
+  
+  .mdl2-UnderlineS::before, .mdl2-UnderlineSLegacy::before {
+    content: "\EED8"; }
+  
+  .mdl2-UnderlineSLegacy::before, .mdl2-UnderlineS::before, .mdl2-UnderlineSLegacy::before {
+    content: "\EED9"; }
+  
+  .mdl2-UnderlineU::before, .mdl2-UnderlineULegacy::before {
+    content: "\EEDA"; }
+  
+  .mdl2-UnderlineULegacy::before, .mdl2-UnderlineU::before, .mdl2-UnderlineULegacy::before {
+    content: "\EEDB"; }
+  
+  .mdl2-UnderscoreSpace::before {
+    content: "\EEDC"; }
+  
+  .mdl2-Undo::before, .mdl2-UndoLegacy::before {
+    content: "\EEDD"; }
+  
+  .mdl2-Unfavorite::before, .mdl2-UnfavoriteLegacy::before {
+    content: "\EEDE"; }
+  
+  .mdl2-Unit::before {
+    content: "\EEDF"; }
+  
+  .mdl2-Unknown::before {
+    content: "\EEE0"; }
+  
+  .mdl2-UnknownMirrored::before {
+    content: "\EEE1"; }
+  
+  .mdl2-Unlock::before, .mdl2-UnlockLegacy::before {
+    content: "\EEE2"; }
+  
+  .mdl2-Unpin::before, .mdl2-UnpinLegacy::before {
+    content: "\EEE3"; }
+  
+  .mdl2-UnsyncFolder::before, .mdl2-UnsyncFolderLegacy::before {
+    content: "\EEE4"; }
+  
+  .mdl2-Up::before, .mdl2-UpLegacy::before {
+    content: "\EEE5"; }
+  
+  .mdl2-UpArrowShiftKey::before {
+    content: "\EEE6"; }
+  
+  .mdl2-UpShiftKey::before {
+    content: "\EEE7"; }
+  
+  .mdl2-UpdateRestore::before {
+    content: "\EEE8"; }
+  
+  .mdl2-Upload::before, .mdl2-UploadLegacy::before, .mdl2-UploadSkyDriveLegacy::before {
+    content: "\EEE9"; }
+  
+  .mdl2-UserAPN::before {
+    content: "\EEEA"; }
+  
+  .mdl2-VPN::before {
+    content: "\EEEB"; }
+  
+  .mdl2-VerticalBattery0::before {
+    content: "\EEEC"; }
+  
+  .mdl2-VerticalBattery1::before {
+    content: "\EEED"; }
+  
+  .mdl2-VerticalBattery10::before {
+    content: "\EEEE"; }
+  
+  .mdl2-VerticalBattery2::before {
+    content: "\EEEF"; }
+  
+  .mdl2-VerticalBattery3::before {
+    content: "\EEF0"; }
+  
+  .mdl2-VerticalBattery4::before {
+    content: "\EEF1"; }
+  
+  .mdl2-VerticalBattery5::before {
+    content: "\EEF2"; }
+  
+  .mdl2-VerticalBattery6::before {
+    content: "\EEF3"; }
+  
+  .mdl2-VerticalBattery7::before {
+    content: "\EEF4"; }
+  
+  .mdl2-VerticalBattery8::before {
+    content: "\EEF5"; }
+  
+  .mdl2-VerticalBattery9::before {
+    content: "\EEF6"; }
+  
+  .mdl2-VerticalBatteryCharging0::before {
+    content: "\EEF7"; }
+  
+  .mdl2-VerticalBatteryCharging1::before {
+    content: "\EEF8"; }
+  
+  .mdl2-VerticalBatteryCharging10::before {
+    content: "\EEF9"; }
+  
+  .mdl2-VerticalBatteryCharging2::before {
+    content: "\EEFA"; }
+  
+  .mdl2-VerticalBatteryCharging3::before {
+    content: "\EEFB"; }
+  
+  .mdl2-VerticalBatteryCharging4::before {
+    content: "\EEFC"; }
+  
+  .mdl2-VerticalBatteryCharging5::before {
+    content: "\EEFD"; }
+  
+  .mdl2-VerticalBatteryCharging6::before {
+    content: "\EEFE"; }
+  
+  .mdl2-VerticalBatteryCharging7::before {
+    content: "\EEFF"; }
+  
+  .mdl2-VerticalBatteryCharging8::before {
+    content: "\EF00"; }
+  
+  .mdl2-VerticalBatteryCharging9::before {
+    content: "\EF01"; }
+  
+  .mdl2-VerticalBatteryUnknown::before {
+    content: "\EF02"; }
+  
+  .mdl2-Vibrate::before {
+    content: "\EF03"; }
+  
+  .mdl2-Video::before, .mdl2-VideoInlineLegacy::before, .mdl2-VideoLegacy::before {
+    content: "\EF04"; }
+  
+  .mdl2-Video360::before {
+    content: "\EF05"; }
+  
+  .mdl2-VideoChat::before, .mdl2-VideoChatLegacy::before {
+    content: "\EF06"; }
+  
+  .mdl2-VideoSolid::before {
+    content: "\EF07"; }
+  
+  .mdl2-View::before, .mdl2-RevealPasswordLegacy::before, .mdl2-ViewLegacy::before {
+    content: "\EF08"; }
+  
+  .mdl2-ViewAll::before, .mdl2-ShowAllFilesLegacy::before, .mdl2-ViewAllLegacy::before {
+    content: "\EF09"; }
+  
+  .mdl2-ViewDashboard::before {
+    content: "\EF0A"; }
+  
+  .mdl2-Volume::before, .mdl2-VolumeLegacy::before {
+    content: "\EF0B"; }
+  
+  .mdl2-Volume0::before {
+    content: "\EF0C"; }
+  
+  .mdl2-Volume1::before {
+    content: "\EF0D"; }
+  
+  .mdl2-Volume2::before {
+    content: "\EF0E"; }
+  
+  .mdl2-Volume3::before {
+    content: "\EF0F"; }
+  
+  .mdl2-VolumeBars::before {
+    content: "\EF10"; }
+  
+  .mdl2-Walk::before {
+    content: "\EF11"; }
+  
+  .mdl2-WalkSolid::before {
+    content: "\EF12"; }
+  
+  .mdl2-Warning::before {
+    content: "\EF13"; }
+  
+  .mdl2-Webcam::before, .mdl2-WebcamLegacy::before {
+    content: "\EF14"; }
+  
+  .mdl2-Webcam2::before {
+    content: "\EF15"; }
+  
+  .mdl2-Website::before {
+    content: "\EF16"; }
+  
+  .mdl2-Wheel::before {
+    content: "\EF17"; }
+  
+  .mdl2-Wifi::before {
+    content: "\EF18"; }
+  
+  .mdl2-Wifi1::before {
+    content: "\EF19"; }
+  
+  .mdl2-Wifi2::before {
+    content: "\EF1A"; }
+  
+  .mdl2-Wifi3::before {
+    content: "\EF1B"; }
+  
+  .mdl2-WifiAttentionOverlay::before {
+    content: "\EF1C"; }
+  
+  .mdl2-WifiCall0::before {
+    content: "\EF1D"; }
+  
+  .mdl2-WifiCall1::before {
+    content: "\EF1E"; }
+  
+  .mdl2-WifiCall2::before {
+    content: "\EF1F"; }
+  
+  .mdl2-WifiCall3::before {
+    content: "\EF20"; }
+  
+  .mdl2-WifiCall4::before {
+    content: "\EF21"; }
+  
+  .mdl2-WifiCallBars::before {
+    content: "\EF22"; }
+  
+  .mdl2-WifiError0::before {
+    content: "\EF23"; }
+  
+  .mdl2-WifiError1::before {
+    content: "\EF24"; }
+  
+  .mdl2-WifiError2::before {
+    content: "\EF25"; }
+  
+  .mdl2-WifiError3::before {
+    content: "\EF26"; }
+  
+  .mdl2-WifiError4::before {
+    content: "\EF27"; }
+  
+  .mdl2-WifiEthernet::before {
+    content: "\EF28"; }
+  
+  .mdl2-WifiHotspot::before, .mdl2-InternetSharing::before {
+    content: "\EF29"; }
+  
+  .mdl2-WifiWarning0::before {
+    content: "\EF2A"; }
+  
+  .mdl2-WifiWarning1::before {
+    content: "\EF2B"; }
+  
+  .mdl2-WifiWarning2::before {
+    content: "\EF2C"; }
+  
+  .mdl2-WifiWarning3::before {
+    content: "\EF2D"; }
+  
+  .mdl2-WifiWarning4::before {
+    content: "\EF2E"; }
+  
+  .mdl2-WindDirection::before {
+    content: "\EF2F"; }
+  
+  .mdl2-WindowsInsider::before {
+    content: "\EF30"; }
+  
+  .mdl2-WiredUSB::before {
+    content: "\EF31"; }
+  
+  .mdl2-WirelessUSB::before {
+    content: "\EF32"; }
+  
+  .mdl2-Work::before {
+    content: "\EF33"; }
+  
+  .mdl2-WorkSolid::before {
+    content: "\EF34"; }
+  
+  .mdl2-World::before, .mdl2-WorldLegacy::before {
+    content: "\EF35"; }
+  
+  .mdl2-XboxOneConsole::before {
+    content: "\EF36"; }
+  
+  .mdl2-ZeroBars::before, .mdl2-ZeroBarsLegacy::before {
+    content: "\EF37"; }
+  
+  .mdl2-Zoom::before, .mdl2-ZoomLegacy::before {
+    content: "\EF38"; }
+  
+  .mdl2-ZoomIn::before, .mdl2-ZoomInLegacy::before {
+    content: "\EF39"; }
+  
+  .mdl2-ZoomMode::before {
+    content: "\EF3A"; }
+  
+  .mdl2-ZoomOut::before, .mdl2-ZoomOutLegacy::before {
+    content: "\EF3B"; }
+  
+  .mdl2-eSIM::before {
+    content: "\EF3C"; }
+  
+  .mdl2-eSIMBusy::before {
+    content: "\EF3D"; }
+  
+  .mdl2-eSIMLocked::before {
+    content: "\EF3E"; }
+  
+  .mdl2-eSIMNoProfile::before {
+    content: "\EF3F"; }
+  
+  .mdl2-uniE80B::before, .mdl2-E80B::before, .mdl2-uniE80B::before {
+    content: "\EF40"; }
+  
+  .mdl2-uniEA0D::before, .mdl2-EA0D::before, .mdl2-uniEA0D::before {
+    content: "\EF41"; }
+  
+  .mdl2-uniEA3F::before, .mdl2-EA3F::before, .mdl2-uniEA3F::before {
+    content: "\EF42"; }
+  
+  .mdl2-uniEA90::before, .mdl2-EA90::before, .mdl2-uniEA90::before {
+    content: "\EF43"; }
+  
+  .mdl2-uniEAC2::before, .mdl2-EAC2::before, .mdl2-uniEAC2::before {
+    content: "\EF44"; }
+  
+  .mdl2-uniEC6C::before, .mdl2-EC6C::before, .mdl2-uniEC6C::before {
+    content: "\EF45"; }
+  
+  .mdl2-uniEEA3::before, .mdl2-EEA3::before, .mdl2-uniEEA3::before {
+    content: "\EF46"; }
+  
+  .mdl2-uniF2B7::before, .mdl2-F2B7::before, .mdl2-uniF2B7::before {
+    content: "\EF47"; }
+  
+  .mdl2-uniF5AA::before, .mdl2-F5AA::before, .mdl2-uniF5AA::before {
+    content: "\EF48"; }
+  
+  .mdl2-uniF614::before, .mdl2-F614::before, .mdl2-uniF614::before {
+    content: "\EF49"; }
+  
+  .mdl2-uniF615::before, .mdl2-F615::before, .mdl2-uniF615::before {
+    content: "\EF4A"; }
+  
+  .mdl2-uniF616::before, .mdl2-F616::before, .mdl2-uniF616::before {
+    content: "\EF4B"; }
+  
+  .mdl2-uniF617::before, .mdl2-F617::before, .mdl2-uniF617::before {
+    content: "\EF4C"; }
+  
+  .mdl2-uniF657::before, .mdl2-F657::before, .mdl2-uniF657::before {
+    content: "\EF4D"; }
+  
+  .mdl2-uniF658::before, .mdl2-F658::before, .mdl2-uniF658::before {
+    content: "\EF4E"; }
+  
+  .mdl2-uniF659::before, .mdl2-F659::before, .mdl2-uniF659::before {
+    content: "\EF4F"; }
+  
+  .mdl2-uniF65A::before, .mdl2-F65A::before, .mdl2-uniF65A::before {
+    content: "\EF50"; }
+  
+  .mdl2-uniF65B::before, .mdl2-F65B::before, .mdl2-uniF65B::before {
+    content: "\EF51"; }
+  
+  .mdl2-uniF65C::before, .mdl2-F65C::before, .mdl2-uniF65C::before {
+    content: "\EF52"; }
+  
+  .mdl2-uniF69E::before, .mdl2-F69E::before, .mdl2-uniF69E::before {
+    content: "\EF53"; }
+  
+  .mdl2-uniF6FA::before, .mdl2-F6FA::before, .mdl2-uniF6FA::before {
+    content: "\EF54"; }
+  
+  .mdl2-uniF712::before, .mdl2-F712::before, .mdl2-uniF712::before {
+    content: "\EF55"; }
+  
+  .mdl2-uniF71C::before, .mdl2-F71C::before, .mdl2-uniF71C::before {
+    content: "\EF56"; }
+  
+  .mdl2-uniF71D::before, .mdl2-F71D::before, .mdl2-uniF71D::before {
+    content: "\EF57"; }
+  
+  .mdl2-uniF71E::before, .mdl2-F71E::before, .mdl2-uniF71E::before {
+    content: "\EF58"; }
+  
+  .mdl2-uniF738::before, .mdl2-F738::before, .mdl2-uniF738::before {
+    content: "\EF59"; }
+  
+  .mdl2-uniF739::before, .mdl2-F739::before, .mdl2-uniF739::before {
+    content: "\EF5A"; }
+  
+  .mdl2-uniF73D::before, .mdl2-F73D::before, .mdl2-uniF73D::before {
+    content: "\EF5B"; }
+  
+  .mdl2-uniF73E::before, .mdl2-F73E::before, .mdl2-uniF73E::before {
+    content: "\EF5C"; }
+  
+  .mdl2-uniF73F::before, .mdl2-F73F::before, .mdl2-uniF73F::before {
+    content: "\EF5D"; }
+  
+  .mdl2-uniF740::before, .mdl2-F740::before, .mdl2-uniF740::before {
+    content: "\EF5E"; }
+  
+  .mdl2-uniF741::before, .mdl2-F741::before, .mdl2-uniF741::before {
+    content: "\EF5F"; }
+  
+  .mdl2-uniF742::before, .mdl2-F742::before, .mdl2-uniF742::before {
+    content: "\EF60"; }
+  
+  .mdl2-uniF743::before, .mdl2-F743::before, .mdl2-uniF743::before {
+    content: "\EF61"; }
+  
+  .mdl2-uniF744::before, .mdl2-F744::before, .mdl2-uniF744::before {
+    content: "\EF62"; }
+  
+  .mdl2-uniF745::before, .mdl2-F745::before, .mdl2-uniF745::before {
+    content: "\EF63"; }
+  
+  .mdl2-uniF746::before, .mdl2-F746::before, .mdl2-uniF746::before {
+    content: "\EF64"; }
+  
+  .mdl2-uniF785::before, .mdl2-F785::before, .mdl2-uniF785::before {
+    content: "\EF65"; }
+  
+  .mdl2-500px::before {
+    content: "\EF66"; }
+  
+  .mdl2-accessible-icon::before {
+    content: "\EF67"; }
+  
+  .mdl2-accusoft::before {
+    content: "\EF68"; }
+  
+  .mdl2-acquisitions-incorporated::before {
+    content: "\EF69"; }
+  
+  .mdl2-adn::before {
+    content: "\EF6A"; }
+  
+  .mdl2-adobe::before {
+    content: "\EF6B"; }
+  
+  .mdl2-adversal::before {
+    content: "\EF6C"; }
+  
+  .mdl2-affiliatetheme::before {
+    content: "\EF6D"; }
+  
+  .mdl2-algolia::before {
+    content: "\EF6E"; }
+  
+  .mdl2-alipay::before {
+    content: "\EF6F"; }
+  
+  .mdl2-amazon-pay::before {
+    content: "\EF70"; }
+  
+  .mdl2-amazon::before {
+    content: "\EF71"; }
+  
+  .mdl2-amilia::before {
+    content: "\EF72"; }
+  
+  .mdl2-android::before {
+    content: "\EF73"; }
+  
+  .mdl2-angellist::before {
+    content: "\EF74"; }
+  
+  .mdl2-angrycreative::before {
+    content: "\EF75"; }
+  
+  .mdl2-angular::before {
+    content: "\EF76"; }
+  
+  .mdl2-app-store-ios::before {
+    content: "\EF77"; }
+  
+  .mdl2-app-store::before {
+    content: "\EF78"; }
+  
+  .mdl2-apper::before {
+    content: "\EF79"; }
+  
+  .mdl2-apple-pay::before {
+    content: "\EF7A"; }
+  
+  .mdl2-apple::before {
+    content: "\EF7B"; }
+  
+  .mdl2-artstation::before {
+    content: "\EF7C"; }
+  
+  .mdl2-asymmetrik::before {
+    content: "\EF7D"; }
+  
+  .mdl2-atlassian::before {
+    content: "\EF7E"; }
+  
+  .mdl2-audible::before {
+    content: "\EF7F"; }
+  
+  .mdl2-autoprefixer::before {
+    content: "\EF80"; }
+  
+  .mdl2-avianex::before {
+    content: "\EF81"; }
+  
+  .mdl2-aviato::before {
+    content: "\EF82"; }
+  
+  .mdl2-aws::before {
+    content: "\EF83"; }
+  
+  .mdl2-bandcamp::before {
+    content: "\EF84"; }
+  
+  .mdl2-behance-square::before {
+    content: "\EF85"; }
+  
+  .mdl2-behance::before {
+    content: "\EF86"; }
+  
+  .mdl2-bimobject::before {
+    content: "\EF87"; }
+  
+  .mdl2-bitbucket::before {
+    content: "\EF88"; }
+  
+  .mdl2-bitcoin::before {
+    content: "\EF89"; }
+  
+  .mdl2-bity::before {
+    content: "\EF8A"; }
+  
+  .mdl2-black-tie::before {
+    content: "\EF8B"; }
+  
+  .mdl2-blackberry::before {
+    content: "\EF8C"; }
+  
+  .mdl2-blogger-b::before {
+    content: "\EF8D"; }
+  
+  .mdl2-blogger::before {
+    content: "\EF8E"; }
+  
+  .mdl2-bluetooth-b::before {
+    content: "\EF8F"; }
+  
+  .mdl2-bluetooth::before {
+    content: "\EF90"; }
+  
+  .mdl2-btc::before {
+    content: "\EF91"; }
+  
+  .mdl2-buromobelexperte::before {
+    content: "\EF92"; }
+  
+  .mdl2-buysellads::before {
+    content: "\EF93"; }
+  
+  .mdl2-canadian-maple-leaf::before {
+    content: "\EF94"; }
+  
+  .mdl2-cc-amazon-pay::before {
+    content: "\EF95"; }
+  
+  .mdl2-cc-amex::before {
+    content: "\EF96"; }
+  
+  .mdl2-cc-apple-pay::before {
+    content: "\EF97"; }
+  
+  .mdl2-cc-diners-club::before {
+    content: "\EF98"; }
+  
+  .mdl2-cc-discover::before {
+    content: "\EF99"; }
+  
+  .mdl2-cc-jcb::before {
+    content: "\EF9A"; }
+  
+  .mdl2-cc-mastercard::before {
+    content: "\EF9B"; }
+  
+  .mdl2-cc-paypal::before {
+    content: "\EF9C"; }
+  
+  .mdl2-cc-stripe::before {
+    content: "\EF9D"; }
+  
+  .mdl2-cc-visa::before {
+    content: "\EF9E"; }
+  
+  .mdl2-centercode::before {
+    content: "\EF9F"; }
+  
+  .mdl2-centos::before {
+    content: "\EFA0"; }
+  
+  .mdl2-chrome::before {
+    content: "\EFA1"; }
+  
+  .mdl2-cloudscale::before {
+    content: "\EFA2"; }
+  
+  .mdl2-cloudsmith::before {
+    content: "\EFA3"; }
+  
+  .mdl2-cloudversify::before {
+    content: "\EFA4"; }
+  
+  .mdl2-codepen::before {
+    content: "\EFA5"; }
+  
+  .mdl2-codiepie::before {
+    content: "\EFA6"; }
+  
+  .mdl2-confluence::before {
+    content: "\EFA7"; }
+  
+  .mdl2-connectdevelop::before {
+    content: "\EFA8"; }
+  
+  .mdl2-contao::before {
+    content: "\EFA9"; }
+  
+  .mdl2-cpanel::before {
+    content: "\EFAA"; }
+  
+  .mdl2-creative-commons-by::before {
+    content: "\EFAB"; }
+  
+  .mdl2-creative-commons-nc-eu::before {
+    content: "\EFAC"; }
+  
+  .mdl2-creative-commons-nc-jp::before {
+    content: "\EFAD"; }
+  
+  .mdl2-creative-commons-nc::before {
+    content: "\EFAE"; }
+  
+  .mdl2-creative-commons-nd::before {
+    content: "\EFAF"; }
+  
+  .mdl2-creative-commons-pd-alt::before {
+    content: "\EFB0"; }
+  
+  .mdl2-creative-commons-pd::before {
+    content: "\EFB1"; }
+  
+  .mdl2-creative-commons-remix::before {
+    content: "\EFB2"; }
+  
+  .mdl2-creative-commons-sa::before {
+    content: "\EFB3"; }
+  
+  .mdl2-creative-commons-sampling-plus::before {
+    content: "\EFB4"; }
+  
+  .mdl2-creative-commons-sampling::before {
+    content: "\EFB5"; }
+  
+  .mdl2-creative-commons-share::before {
+    content: "\EFB6"; }
+  
+  .mdl2-creative-commons-zero::before {
+    content: "\EFB7"; }
+  
+  .mdl2-creative-commons::before {
+    content: "\EFB8"; }
+  
+  .mdl2-critical-role::before {
+    content: "\EFB9"; }
+  
+  .mdl2-css3-alt::before {
+    content: "\EFBA"; }
+  
+  .mdl2-css3::before {
+    content: "\EFBB"; }
+  
+  .mdl2-cuttlefish::before {
+    content: "\EFBC"; }
+  
+  .mdl2-d-and-d-beyond::before {
+    content: "\EFBD"; }
+  
+  .mdl2-d-and-d::before {
+    content: "\EFBE"; }
+  
+  .mdl2-dashcube::before {
+    content: "\EFBF"; }
+  
+  .mdl2-delicious::before {
+    content: "\EFC0"; }
+  
+  .mdl2-deploydog::before {
+    content: "\EFC1"; }
+  
+  .mdl2-deskpro::before {
+    content: "\EFC2"; }
+  
+  .mdl2-dev::before {
+    content: "\EFC3"; }
+  
+  .mdl2-deviantart::before {
+    content: "\EFC4"; }
+  
+  .mdl2-dhl::before {
+    content: "\EFC5"; }
+  
+  .mdl2-diaspora::before {
+    content: "\EFC6"; }
+  
+  .mdl2-digg::before {
+    content: "\EFC7"; }
+  
+  .mdl2-digital-ocean::before {
+    content: "\EFC8"; }
+  
+  .mdl2-discord::before {
+    content: "\EFC9"; }
+  
+  .mdl2-discourse::before {
+    content: "\EFCA"; }
+  
+  .mdl2-dochub::before {
+    content: "\EFCB"; }
+  
+  .mdl2-docker::before {
+    content: "\EFCC"; }
+  
+  .mdl2-draft2digital::before {
+    content: "\EFCD"; }
+  
+  .mdl2-dribbble-square::before {
+    content: "\EFCE"; }
+  
+  .mdl2-dribbble::before {
+    content: "\EFCF"; }
+  
+  .mdl2-dropbox::before {
+    content: "\EFD0"; }
+  
+  .mdl2-drupal::before {
+    content: "\EFD1"; }
+  
+  .mdl2-dyalog::before {
+    content: "\EFD2"; }
+  
+  .mdl2-earlybirds::before {
+    content: "\EFD3"; }
+  
+  .mdl2-ebay::before {
+    content: "\EFD4"; }
+  
+  .mdl2-edge::before {
+    content: "\EFD5"; }
+  
+  .mdl2-elementor::before {
+    content: "\EFD6"; }
+  
+  .mdl2-ello::before {
+    content: "\EFD7"; }
+  
+  .mdl2-ember::before {
+    content: "\EFD8"; }
+  
+  .mdl2-empire::before {
+    content: "\EFD9"; }
+  
+  .mdl2-envira::before {
+    content: "\EFDA"; }
+  
+  .mdl2-erlang::before {
+    content: "\EFDB"; }
+  
+  .mdl2-ethereum::before {
+    content: "\EFDC"; }
+  
+  .mdl2-etsy::before {
+    content: "\EFDD"; }
+  
+  .mdl2-expeditedssl::before {
+    content: "\EFDE"; }
+  
+  .mdl2-facebook-f::before {
+    content: "\EFDF"; }
+  
+  .mdl2-facebook-messenger::before {
+    content: "\EFE0"; }
+  
+  .mdl2-facebook-square::before {
+    content: "\EFE1"; }
+  
+  .mdl2-facebook::before {
+    content: "\EFE2"; }
+  
+  .mdl2-fedex::before {
+    content: "\EFE3"; }
+  
+  .mdl2-fedora::before {
+    content: "\EFE4"; }
+  
+  .mdl2-figma::before {
+    content: "\EFE5"; }
+  
+  .mdl2-firefox::before {
+    content: "\EFE6"; }
+  
+  .mdl2-first-order-alt::before {
+    content: "\EFE7"; }
+  
+  .mdl2-first-order::before {
+    content: "\EFE8"; }
+  
+  .mdl2-firstdraft::before {
+    content: "\EFE9"; }
+  
+  .mdl2-flickr::before {
+    content: "\EFEA"; }
+  
+  .mdl2-flipboard::before {
+    content: "\EFEB"; }
+  
+  .mdl2-fly::before {
+    content: "\EFEC"; }
+  
+  .mdl2-font-awesome-alt::before {
+    content: "\EFED"; }
+  
+  .mdl2-font-awesome-flag::before {
+    content: "\EFEE"; }
+  
+  .mdl2-font-awesome::before {
+    content: "\EFEF"; }
+  
+  .mdl2-fonticons-fi::before {
+    content: "\EFF0"; }
+  
+  .mdl2-fonticons::before {
+    content: "\EFF1"; }
+  
+  .mdl2-fort-awesome-alt::before {
+    content: "\EFF2"; }
+  
+  .mdl2-fort-awesome::before {
+    content: "\EFF3"; }
+  
+  .mdl2-forumbee::before {
+    content: "\EFF4"; }
+  
+  .mdl2-foursquare::before {
+    content: "\EFF5"; }
+  
+  .mdl2-free-code-camp::before {
+    content: "\EFF6"; }
+  
+  .mdl2-freebsd::before {
+    content: "\EFF7"; }
+  
+  .mdl2-fulcrum::before {
+    content: "\EFF8"; }
+  
+  .mdl2-galactic-republic::before {
+    content: "\EFF9"; }
+  
+  .mdl2-galactic-senate::before {
+    content: "\EFFA"; }
+  
+  .mdl2-get-pocket::before {
+    content: "\EFFB"; }
+  
+  .mdl2-gg-circle::before {
+    content: "\EFFC"; }
+  
+  .mdl2-gg::before {
+    content: "\EFFD"; }
+  
+  .mdl2-git-square::before {
+    content: "\EFFE"; }
+  
+  .mdl2-github-alt::before {
+    content: "\EFFF"; }
+  
+  .mdl2-github-square::before {
+    content: "\F000"; }
+  
+  .mdl2-github::before {
+    content: "\F001"; }
+  
+  .mdl2-gitkraken::before {
+    content: "\F002"; }
+  
+  .mdl2-gitlab::before {
+    content: "\F003"; }
+  
+  .mdl2-gitter::before {
+    content: "\F004"; }
+  
+  .mdl2-glide-g::before {
+    content: "\F005"; }
+  
+  .mdl2-glide::before {
+    content: "\F006"; }
+  
+  .mdl2-gofore::before {
+    content: "\F007"; }
+  
+  .mdl2-goodreads-g::before {
+    content: "\F008"; }
+  
+  .mdl2-goodreads::before {
+    content: "\F009"; }
+  
+  .mdl2-google-drive::before {
+    content: "\F00A"; }
+  
+  .mdl2-google-play::before {
+    content: "\F00B"; }
+  
+  .mdl2-google-plus-g::before {
+    content: "\F00C"; }
+  
+  .mdl2-google-plus-square::before {
+    content: "\F00D"; }
+  
+  .mdl2-google-plus::before {
+    content: "\F00E"; }
+  
+  .mdl2-google-wallet::before {
+    content: "\F00F"; }
+  
+  .mdl2-google::before {
+    content: "\F010"; }
+  
+  .mdl2-gratipay::before {
+    content: "\F011"; }
+  
+  .mdl2-grav::before {
+    content: "\F012"; }
+  
+  .mdl2-gripfire::before {
+    content: "\F013"; }
+  
+  .mdl2-grunt::before {
+    content: "\F014"; }
+  
+  .mdl2-gulp::before {
+    content: "\F015"; }
+  
+  .mdl2-hacker-news-square::before {
+    content: "\F016"; }
+  
+  .mdl2-hacker-news::before {
+    content: "\F017"; }
+  
+  .mdl2-hackerrank::before {
+    content: "\F018"; }
+  
+  .mdl2-hire-a-helper::before {
+    content: "\F019"; }
+  
+  .mdl2-hooli::before {
+    content: "\F01A"; }
+  
+  .mdl2-hornbill::before {
+    content: "\F01B"; }
+  
+  .mdl2-hotjar::before {
+    content: "\F01C"; }
+  
+  .mdl2-houzz::before {
+    content: "\F01D"; }
+  
+  .mdl2-html5::before {
+    content: "\F01E"; }
+  
+  .mdl2-hubspot::before {
+    content: "\F01F"; }
+  
+  .mdl2-imdb::before {
+    content: "\F020"; }
+  
+  .mdl2-instagram::before {
+    content: "\F021"; }
+  
+  .mdl2-intercom::before {
+    content: "\F022"; }
+  
+  .mdl2-internet-explorer::before {
+    content: "\F023"; }
+  
+  .mdl2-invision::before {
+    content: "\F024"; }
+  
+  .mdl2-ioxhost::before {
+    content: "\F025"; }
+  
+  .mdl2-itunes-note::before {
+    content: "\F026"; }
+  
+  .mdl2-itunes::before {
+    content: "\F027"; }
+  
+  .mdl2-java::before {
+    content: "\F028"; }
+  
+  .mdl2-jedi-order::before {
+    content: "\F029"; }
+  
+  .mdl2-jenkins::before {
+    content: "\F02A"; }
+  
+  .mdl2-jira::before {
+    content: "\F02B"; }
+  
+  .mdl2-joget::before {
+    content: "\F02C"; }
+  
+  .mdl2-joomla::before {
+    content: "\F02D"; }
+  
+  .mdl2-js-square::before {
+    content: "\F02E"; }
+  
+  .mdl2-js::before {
+    content: "\F02F"; }
+  
+  .mdl2-jsfiddle::before {
+    content: "\F030"; }
+  
+  .mdl2-kaggle::before {
+    content: "\F031"; }
+  
+  .mdl2-keybase::before {
+    content: "\F032"; }
+  
+  .mdl2-keycdn::before {
+    content: "\F033"; }
+  
+  .mdl2-kickstarter-k::before {
+    content: "\F034"; }
+  
+  .mdl2-kickstarter::before {
+    content: "\F035"; }
+  
+  .mdl2-korvue::before {
+    content: "\F036"; }
+  
+  .mdl2-laravel::before {
+    content: "\F037"; }
+  
+  .mdl2-lastfm-square::before {
+    content: "\F038"; }
+  
+  .mdl2-lastfm::before {
+    content: "\F039"; }
+  
+  .mdl2-leanpub::before {
+    content: "\F03A"; }
+  
+  .mdl2-less::before {
+    content: "\F03B"; }
+  
+  .mdl2-line::before {
+    content: "\F03C"; }
+  
+  .mdl2-linkedin-in::before {
+    content: "\F03D"; }
+  
+  .mdl2-linkedin::before {
+    content: "\F03E"; }
+  
+  .mdl2-linode::before {
+    content: "\F03F"; }
+  
+  .mdl2-linux::before {
+    content: "\F040"; }
+  
+  .mdl2-lyft::before {
+    content: "\F041"; }
+  
+  .mdl2-magento::before {
+    content: "\F042"; }
+  
+  .mdl2-mailchimp::before {
+    content: "\F043"; }
+  
+  .mdl2-mandalorian::before {
+    content: "\F044"; }
+  
+  .mdl2-markdown::before {
+    content: "\F045"; }
+  
+  .mdl2-mastodon::before {
+    content: "\F046"; }
+  
+  .mdl2-maxcdn::before {
+    content: "\F047"; }
+  
+  .mdl2-medapps::before {
+    content: "\F048"; }
+  
+  .mdl2-medium-m::before {
+    content: "\F049"; }
+  
+  .mdl2-medium::before {
+    content: "\F04A"; }
+  
+  .mdl2-medrt::before {
+    content: "\F04B"; }
+  
+  .mdl2-meetup::before {
+    content: "\F04C"; }
+  
+  .mdl2-megaport::before {
+    content: "\F04D"; }
+  
+  .mdl2-mendeley::before {
+    content: "\F04E"; }
+  
+  .mdl2-microsoft::before {
+    content: "\F04F"; }
+  
+  .mdl2-mix::before {
+    content: "\F050"; }
+  
+  .mdl2-mixcloud::before {
+    content: "\F051"; }
+  
+  .mdl2-mizuni::before {
+    content: "\F052"; }
+  
+  .mdl2-modx::before {
+    content: "\F053"; }
+  
+  .mdl2-monero::before {
+    content: "\F054"; }
+  
+  .mdl2-napster::before {
+    content: "\F055"; }
+  
+  .mdl2-neos::before {
+    content: "\F056"; }
+  
+  .mdl2-nimblr::before {
+    content: "\F057"; }
+  
+  .mdl2-nintendo-switch::before {
+    content: "\F058"; }
+  
+  .mdl2-node-js::before {
+    content: "\F059"; }
+  
+  .mdl2-node::before {
+    content: "\F05A"; }
+  
+  .mdl2-npm::before {
+    content: "\F05B"; }
+  
+  .mdl2-ns8::before {
+    content: "\F05C"; }
+  
+  .mdl2-nutritionix::before {
+    content: "\F05D"; }
+  
+  .mdl2-odnoklassniki-square::before {
+    content: "\F05E"; }
+  
+  .mdl2-odnoklassniki::before {
+    content: "\F05F"; }
+  
+  .mdl2-old-republic::before {
+    content: "\F060"; }
+  
+  .mdl2-opencart::before {
+    content: "\F061"; }
+  
+  .mdl2-openid::before {
+    content: "\F062"; }
+  
+  .mdl2-opera::before {
+    content: "\F063"; }
+  
+  .mdl2-optin-monster::before {
+    content: "\F064"; }
+  
+  .mdl2-osi::before {
+    content: "\F065"; }
+  
+  .mdl2-page4::before {
+    content: "\F066"; }
+  
+  .mdl2-pagelines::before {
+    content: "\F067"; }
+  
+  .mdl2-palfed::before {
+    content: "\F068"; }
+  
+  .mdl2-patreon::before {
+    content: "\F069"; }
+  
+  .mdl2-paypal::before {
+    content: "\F06A"; }
+  
+  .mdl2-penny-arcade::before {
+    content: "\F06B"; }
+  
+  .mdl2-periscope::before {
+    content: "\F06C"; }
+  
+  .mdl2-phabricator::before {
+    content: "\F06D"; }
+  
+  .mdl2-phoenix-framework::before {
+    content: "\F06E"; }
+  
+  .mdl2-phoenix-squadron::before {
+    content: "\F06F"; }
+  
+  .mdl2-php::before {
+    content: "\F070"; }
+  
+  .mdl2-pied-piper-alt::before {
+    content: "\F071"; }
+  
+  .mdl2-pied-piper-hat::before {
+    content: "\F072"; }
+  
+  .mdl2-pied-piper-pp::before {
+    content: "\F073"; }
+  
+  .mdl2-pied-piper::before {
+    content: "\F074"; }
+  
+  .mdl2-pinterest-p::before {
+    content: "\F075"; }
+  
+  .mdl2-pinterest-square::before {
+    content: "\F076"; }
+  
+  .mdl2-pinterest::before {
+    content: "\F077"; }
+  
+  .mdl2-playstation::before {
+    content: "\F078"; }
+  
+  .mdl2-product-hunt::before {
+    content: "\F079"; }
+  
+  .mdl2-pushed::before {
+    content: "\F07A"; }
+  
+  .mdl2-python::before {
+    content: "\F07B"; }
+  
+  .mdl2-qq::before {
+    content: "\F07C"; }
+  
+  .mdl2-quinscape::before {
+    content: "\F07D"; }
+  
+  .mdl2-quora::before {
+    content: "\F07E"; }
+  
+  .mdl2-r-project::before {
+    content: "\F07F"; }
+  
+  .mdl2-raspberry-pi::before {
+    content: "\F080"; }
+  
+  .mdl2-ravelry::before {
+    content: "\F081"; }
+  
+  .mdl2-react::before {
+    content: "\F082"; }
+  
+  .mdl2-reacteurope::before {
+    content: "\F083"; }
+  
+  .mdl2-readme::before {
+    content: "\F084"; }
+  
+  .mdl2-rebel::before {
+    content: "\F085"; }
+  
+  .mdl2-red-river::before {
+    content: "\F086"; }
+  
+  .mdl2-reddit-alien::before {
+    content: "\F087"; }
+  
+  .mdl2-reddit-square::before {
+    content: "\F088"; }
+  
+  .mdl2-reddit::before {
+    content: "\F089"; }
+  
+  .mdl2-redhat::before {
+    content: "\F08A"; }
+  
+  .mdl2-renren::before {
+    content: "\F08B"; }
+  
+  .mdl2-replyd::before {
+    content: "\F08C"; }
+  
+  .mdl2-researchgate::before {
+    content: "\F08D"; }
+  
+  .mdl2-resolving::before {
+    content: "\F08E"; }
+  
+  .mdl2-rev::before {
+    content: "\F08F"; }
+  
+  .mdl2-rocketchat::before {
+    content: "\F090"; }
+  
+  .mdl2-rockrms::before {
+    content: "\F091"; }
+  
+  .mdl2-safari::before {
+    content: "\F092"; }
+  
+  .mdl2-sass::before {
+    content: "\F093"; }
+  
+  .mdl2-schlix::before {
+    content: "\F094"; }
+  
+  .mdl2-scribd::before {
+    content: "\F095"; }
+  
+  .mdl2-searchengin::before {
+    content: "\F096"; }
+  
+  .mdl2-sellcast::before {
+    content: "\F097"; }
+  
+  .mdl2-sellsy::before {
+    content: "\F098"; }
+  
+  .mdl2-servicestack::before {
+    content: "\F099"; }
+  
+  .mdl2-shirtsinbulk::before {
+    content: "\F09A"; }
+  
+  .mdl2-shopware::before {
+    content: "\F09B"; }
+  
+  .mdl2-simplybuilt::before {
+    content: "\F09C"; }
+  
+  .mdl2-sistrix::before {
+    content: "\F09D"; }
+  
+  .mdl2-sith::before {
+    content: "\F09E"; }
+  
+  .mdl2-sketch::before {
+    content: "\F09F"; }
+  
+  .mdl2-skyatlas::before {
+    content: "\F0A0"; }
+  
+  .mdl2-skype::before {
+    content: "\F0A1"; }
+  
+  .mdl2-slack-hash::before {
+    content: "\F0A2"; }
+  
+  .mdl2-slack::before {
+    content: "\F0A3"; }
+  
+  .mdl2-slideshare::before {
+    content: "\F0A4"; }
+  
+  .mdl2-snapchat-ghost::before {
+    content: "\F0A5"; }
+  
+  .mdl2-snapchat-square::before {
+    content: "\F0A6"; }
+  
+  .mdl2-snapchat::before {
+    content: "\F0A7"; }
+  
+  .mdl2-soundcloud::before {
+    content: "\F0A8"; }
+  
+  .mdl2-sourcetree::before {
+    content: "\F0A9"; }
+  
+  .mdl2-speakap::before {
+    content: "\F0AA"; }
+  
+  .mdl2-spotify::before {
+    content: "\F0AB"; }
+  
+  .mdl2-squarespace::before {
+    content: "\F0AC"; }
+  
+  .mdl2-stack-exchange::before {
+    content: "\F0AD"; }
+  
+  .mdl2-stack-overflow::before {
+    content: "\F0AE"; }
+  
+  .mdl2-staylinked::before {
+    content: "\F0AF"; }
+  
+  .mdl2-steam-square::before {
+    content: "\F0B0"; }
+  
+  .mdl2-steam::before {
+    content: "\F0B1"; }
+  
+  .mdl2-sticker-mule::before {
+    content: "\F0B2"; }
+  
+  .mdl2-strava::before {
+    content: "\F0B3"; }
+  
+  .mdl2-stripe-s::before {
+    content: "\F0B4"; }
+  
+  .mdl2-stripe::before {
+    content: "\F0B5"; }
+  
+  .mdl2-studiovinari::before {
+    content: "\F0B6"; }
+  
+  .mdl2-stumbleupon-circle::before {
+    content: "\F0B7"; }
+  
+  .mdl2-stumbleupon::before {
+    content: "\F0B8"; }
+  
+  .mdl2-superpowers::before {
+    content: "\F0B9"; }
+  
+  .mdl2-supple::before {
+    content: "\F0BA"; }
+  
+  .mdl2-suse::before {
+    content: "\F0BB"; }
+  
+  .mdl2-teamspeak::before {
+    content: "\F0BC"; }
+  
+  .mdl2-telegram-plane::before {
+    content: "\F0BD"; }
+  
+  .mdl2-telegram::before {
+    content: "\F0BE"; }
+  
+  .mdl2-tencent-weibo::before {
+    content: "\F0BF"; }
+  
+  .mdl2-the-red-yeti::before {
+    content: "\F0C0"; }
+  
+  .mdl2-themeco::before {
+    content: "\F0C1"; }
+  
+  .mdl2-themeisle::before {
+    content: "\F0C2"; }
+  
+  .mdl2-think-peaks::before {
+    content: "\F0C3"; }
+  
+  .mdl2-trade-federation::before {
+    content: "\F0C4"; }
+  
+  .mdl2-trello::before {
+    content: "\F0C5"; }
+  
+  .mdl2-tripadvisor::before {
+    content: "\F0C6"; }
+  
+  .mdl2-tumblr-square::before {
+    content: "\F0C7"; }
+  
+  .mdl2-tumblr::before {
+    content: "\F0C8"; }
+  
+  .mdl2-twitch::before {
+    content: "\F0C9"; }
+  
+  .mdl2-twitter-square::before {
+    content: "\F0CA"; }
+  
+  .mdl2-typo3::before {
+    content: "\F0CB"; }
+  
+  .mdl2-ubuntu::before {
+    content: "\F0CC"; }
+  
+  .mdl2-uikit::before {
+    content: "\F0CD"; }
+  
+  .mdl2-uniregistry::before {
+    content: "\F0CE"; }
+  
+  .mdl2-untappd::before {
+    content: "\F0CF"; }
+  
+  .mdl2-ups::before {
+    content: "\F0D0"; }
+  
+  .mdl2-usb::before {
+    content: "\F0D1"; }
+  
+  .mdl2-usps::before {
+    content: "\F0D2"; }
+  
+  .mdl2-ussunnah::before {
+    content: "\F0D3"; }
+  
+  .mdl2-vaadin::before {
+    content: "\F0D4"; }
+  
+  .mdl2-viacoin::before {
+    content: "\F0D5"; }
+  
+  .mdl2-viadeo-square::before {
+    content: "\F0D6"; }
+  
+  .mdl2-viadeo::before {
+    content: "\F0D7"; }
+  
+  .mdl2-viber::before {
+    content: "\F0D8"; }
+  
+  .mdl2-vimeo-square::before {
+    content: "\F0D9"; }
+  
+  .mdl2-vimeo-v::before {
+    content: "\F0DA"; }
+  
+  .mdl2-vimeo::before {
+    content: "\F0DB"; }
+  
+  .mdl2-vine::before {
+    content: "\F0DC"; }
+  
+  .mdl2-vk::before {
+    content: "\F0DD"; }
+  
+  .mdl2-vnv::before {
+    content: "\F0DE"; }
+  
+  .mdl2-vuejs::before {
+    content: "\F0DF"; }
+  
+  .mdl2-weebly::before {
+    content: "\F0E0"; }
+  
+  .mdl2-weibo::before {
+    content: "\F0E1"; }
+  
+  .mdl2-weixin::before {
+    content: "\F0E2"; }
+  
+  .mdl2-whatsapp-square::before {
+    content: "\F0E3"; }
+  
+  .mdl2-whatsapp::before {
+    content: "\F0E4"; }
+  
+  .mdl2-whmcs::before {
+    content: "\F0E5"; }
+  
+  .mdl2-wikipedia-w::before {
+    content: "\F0E6"; }
+  
+  .mdl2-windows::before {
+    content: "\F0E7"; }
+  
+  .mdl2-wix::before {
+    content: "\F0E8"; }
+  
+  .mdl2-wizards-of-the-coast::before {
+    content: "\F0E9"; }
+  
+  .mdl2-wolf-pack-battalion::before {
+    content: "\F0EA"; }
+  
+  .mdl2-wordpress-simple::before {
+    content: "\F0EB"; }
+  
+  .mdl2-wordpress::before {
+    content: "\F0EC"; }
+  
+  .mdl2-wpbeginner::before {
+    content: "\F0ED"; }
+  
+  .mdl2-wpexplorer::before {
+    content: "\F0EE"; }
+  
+  .mdl2-wpforms::before {
+    content: "\F0EF"; }
+  
+  .mdl2-wpressr::before {
+    content: "\F0F0"; }
+  
+  .mdl2-xbox::before {
+    content: "\F0F1"; }
+  
+  .mdl2-xing-square::before {
+    content: "\F0F2"; }
+  
+  .mdl2-xing::before {
+    content: "\F0F3"; }
+  
+  .mdl2-y-combinator::before {
+    content: "\F0F4"; }
+  
+  .mdl2-yahoo::before {
+    content: "\F0F5"; }
+  
+  .mdl2-yandex-international::before {
+    content: "\F0F6"; }
+  
+  .mdl2-yandex::before {
+    content: "\F0F7"; }
+  
+  .mdl2-yarn::before {
+    content: "\F0F8"; }
+  
+  .mdl2-yelp::before {
+    content: "\F0F9"; }
+  
+  .mdl2-yoast::before {
+    content: "\F0FA"; }
+  
+  .mdl2-youtube-square::before {
+    content: "\F0FB"; }
+  
+  .mdl2-youtube::before {
+    content: "\F0FC"; }
+  
+  .mdl2-zhihu::before {
+    content: "\F0FD"; }
+  
