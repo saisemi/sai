@@ -66,7 +66,7 @@ const Footer = () => (
                         <span></span>
                       </div>
                       <div>
-                        <Icon className="mdl2-Mail"> semiconductorautomationsindia@gmail.com</Icon>
+                        <Icon className="mdl2-Mail"> askus@semiconductorautomationsindia.com</Icon>
                         <span></span>
                       </div>
                     
