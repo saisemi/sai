@@ -40,26 +40,11 @@ const Footer = () => (
   <FooterContainer>
     <Container>
       <Row>
-        <Col xs={4}>
-          <Container>
-            <Row>
-              <Col>
-                <Title>About SAI</Title>
-                <Description>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</Description>
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <Title>Careers</Title>
-                <Description>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</Description>
-              </Col>
-            </Row>
-          </Container>
-        </Col>
-        <Col xs={8}>
+        <Col xs={12} style={{ minHeight: '200px', margin: '10px 0'}}>
           <Container>
                   <Row>
                     <ContactDetails xs={6}>
+                      <Title>Address</Title>
                       <Address>unit #3, second floor, arya hub mall, hope farm junction, Whitefield, Banglore 560066.</Address>
                       <div>
                         <Icon className="mdl2-Phone"> 080-12341234</Icon>

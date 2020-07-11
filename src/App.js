@@ -1,14 +1,11 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-// import { useRoutes } from 'hookrouter';
-
 import './App.css';
 import Header from './components/Header';
-// import Body from './components/HomePage/Body';
-import Footer from './components/Footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Routes from './routes';
 
-	
+
+
 
 const App = () => {
   // const routeResult = useRoutes(routes);
@@ -16,7 +13,7 @@ const App = () => {
     <div className="App">
       <Header />
       <Routes />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -16,7 +16,7 @@ import ServicesPage from './components/ServicesPage';
 export default () => (
   <Switch>
     <Route exact path='/' component={HomePage}/>
-    <Route path='/about' component={AboutPage}/>
+    <Route path='/about' component={HomePage}/>
     <Route path='/contactus' component={ContactUsPage}/>
     <Route path='/customers' component={CustomersPage}/>
     <Route path='/partners' component={PartnersPage}/>
