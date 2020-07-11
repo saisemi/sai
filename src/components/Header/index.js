@@ -31,6 +31,7 @@ const Navbar = styled(Col)`
 
 const Nav = styled.div`
   flex: 1 0 0px;
+  padding: 0 2px 0 0;
   border-bottom: ${({ active }) => active ? '3px solid #393492' : ''};
   &:hover {
     border-bottom: 3px solid #d3d1fa;
@@ -80,13 +81,13 @@ class Header extends React.Component {
               <A to='/about'>About Us</A>
             </Nav>
             <Nav active={hash === 'services'} onClick={() => this.setHash('services')}>
-              <A to="/services">Services</A>
+              <A to="/services">Our Services</A>
             </Nav>
             <Nav active={hash === 'partners'} onClick={() => this.setHash('partners')}>
-              <A to="/partners">Partners</A>
+              <A to="/partners">Our Partners</A>
             </Nav>
             <Nav active={hash === 'customers'} onClick={() => this.setHash('customers')}>
-              <A to="/customers">Customers</A>
+              <A to="/customers">Our Customers</A>
             </Nav>
             <Nav active={hash === 'contactus'} onClick={() => this.setHash('contactus')}>
               <A to="/contactus">Contact Us</A>
