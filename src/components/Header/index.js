@@ -3,13 +3,10 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 import { Container, Row, Col } from 'react-bootstrap';
 import saiLogo from '../../img/saiLogo.jpg';
-
-// const Container = styled.div`
-//   width: 100%;
-// `;
+// saiLogo
 
 const HeaderContainer = styled.div`
-  min-height: 50px;
+  min-height: 68px;
   box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.6);
   background-color: rgba(255,255,255,0.95);
   position: sticky;
@@ -40,7 +37,7 @@ const Nav = styled.div`
 `;
 
 const NavLogo = styled.img`
-  width: 100px;
+  width: 120px;
 `;
 
 const A = styled(Link)`
@@ -64,7 +61,6 @@ class Header extends React.Component {
 
   render () {
     const { hash } = this.state;
-    console.log('hash', hash);
     return (
     <HeaderContainer>
       <Container>
