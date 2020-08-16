@@ -6,7 +6,7 @@ import saiLogo from '../../img/saiLogo.jpg';
 // saiLogo
 
 const HeaderContainer = styled.div`
-  min-height: 68px;
+  min-height: 56px;
   box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.6);
   background-color: rgba(255,255,255,0.95);
   position: sticky;
@@ -19,16 +19,16 @@ const HeaderRow = styled(Row)`
 `;
 
 const Navbar = styled(Col)`
-  padding: 0 5px;
   display: flex;
   flex-direction: row;
   align-items: center;
   color: #393492 !important;
+  font-size: .75em;
 `;
 
 const Nav = styled.div`
   flex: 1 0 0px;
-  padding: 0 2px 0 0;
+  padding: 0 10px 0 0;
   border-bottom: ${({ active }) => active ? '3px solid #393492' : ''};
   &:hover {
     border-bottom: 3px solid #d3d1fa;
@@ -37,7 +37,7 @@ const Nav = styled.div`
 `;
 
 const NavLogo = styled.img`
-  width: 120px;
+  width: 100px;
 `;
 
 const A = styled(Link)`

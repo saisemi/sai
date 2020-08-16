@@ -10,7 +10,7 @@ const BodyContainer = styled(Container)`
 `;
 
 const Description = styled.p`
-  text-align: left;
+  text-align: justify;
   padding-left: 10px;
 `;
 
