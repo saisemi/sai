@@ -22,7 +22,7 @@ const Body = () => (
           <Description>
           At SAI, we enable the Indian semiconductor fabs to achieve end-to-end fab automation and we also help you in fab 
           equipment services from installation, maintenance, process automation &amp; 
-          monitoring and can also help you with techno solutions for a better fab operations. SAI also enables realization of automating digital display technologies.
+          monitoring and can also help you with techno solutions for a better fab operations.
           </Description>
         </Col>
       </Row>
